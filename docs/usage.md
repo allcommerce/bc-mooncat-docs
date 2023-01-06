@@ -61,9 +61,7 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Top Banner
-
-The top banner can be created in **Marketing** > **Banners**, click **Create a Banner** button, enter Banner Name, Banner Content, select Show on Page = Home Page, select Location = Top of Page.
+### Home page carousel section
 
 Go back to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail. You can see the top banner appears above the header. To change the colors of the top banner, go to **Theme Styles** > **General** > **Top banners** section. Here you can change the text color and the background color.
 
@@ -152,8 +150,33 @@ Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Ca
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HT44vYYQbnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Top brands carousel
 
-### Brand logos 
+
+![Top-column-carousel](img/brands-top-carousel.jpg)
+
+To make brands carousel:
+
+**Step 1** click on **Theme Styles** > **Home Page** > **Carousel** find **show top column** and enable it to open widget region.
+
+**Step 2** drag & drop **Flex Banners | PapaThemes Beautify** widget to widget region from **step 1**.
+
+**Step 3** click `...` at the right of **Flex Banners | PapaThemes Beautify** and select **Setting** > **Carousel** > **Enable carousel**.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+### Main carousel right banner
+![Main-carousel-right-banner](img/right-banner-main-carousel.jpg)
+
+To display right banner in Main carousel, click on **Theme Styles** > **Home Page** > **Carousel** find **show right column** enable this option. Drag & drop **Flex Banners | PapaThemes Chiara** widget to to the corresponding position.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+### Brand logos
 
 ![brand-logos-on-homepage](img/brand-logos-on-homepage.jpg)
 
@@ -822,9 +845,10 @@ Configuring the category pages in **Page Builder** > **Theme Styles** > **Produc
 
 ### Products Display Type
 
-Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row) or in list mode or bulk order mode. In **Products display type**, select the particular display mode.
+Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row), in list mode or bulk order mode. In **Products display type**, select the particular display mode for default display.
 
-- **Show bulk order mode (if select, list mode replaced by bulk order mode)**: if selected, the Bulk Order layout mode will display instead of the regular list mode.
+- **Display type** on the right allow your customers to change product category display by themselves.
+![products-display-type-by-customer](img/products-display-type-by-customer.jpg)
 
 **Grid 6 columns:**
 
@@ -843,7 +867,7 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row) 
 
 - **Shop by Brand**: Specifying number of popular brands to display.
 
-![popular-brands-sidebar](img/popular-brands-sidebar.jpg)
+![popular-brands-sidebar](img/popular-brands-bar.jpg)
 
 ### Displaying Price Slider
 
@@ -856,7 +880,7 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row) 
 
 ### Display Bulk Order layout
 
-To display this bulk order layout, select **Products display type** = `List`, and tick **Show bulk order mode (if select, list mode replaced by bulk order mode)**.
+To display this bulk order layout, select **Products display type** = `Bulk order`.
 
 ![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
 

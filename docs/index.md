@@ -1,4 +1,4 @@
-# Kansha BigCommerce Theme User Guide
+# Mooncat BigCommerce Theme User Guide
 
 This theme is developed and supported by [Papathemes](https://papathemes.com) 
 
