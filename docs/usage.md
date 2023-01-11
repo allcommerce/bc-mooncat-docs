@@ -85,40 +85,26 @@ The code allows to animate the text sliding from left to right on smaller screen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gG1WesJPkkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Top categories
 
-### Trustpilot rating image
+Desktop
+![Top categories](img/top-categories.jpg)
 
-To create TrustPilot rating image, in Page Builder, drag and drop the **Callout icons widget** to the corresponding position. Select **Icon** = `Choose image`, then upload your image here. Enter icon size accordingly, for example 217 x 24. Unselect **Display icons in container div**, Hide **Show text**. In **Padding** panel, enter 0 for all.
+Mobile
 
-**Watch the instruction video:**
+![Top categories](img/top-categories-mobile.jpg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ex3Ub0tC04U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To create Top categories, in Page Builder drag and drop the **Layout widget** to the position **home below carousel**. Select the layout change column to 1 and change **layout name** = `TOP CATEGORIES`.
 
+Drag and drop **Flex Banners | PapaThemes Beautify** to the layout delete all the items except the first one then change to your image change **width** = `237` and **height** = `100`. If you want to show different image on mobile please enable **show different image on mobile** change to your image on mobile and set **width** = `82`, **height** = `120`. Open content tab disable heading and enable description change **content align** = `center`, Content padding **Top** = `12px` **Left** = `60px`. In general tab change padding **Top, right, bottom, left** = `8px`. 
 
-### Shop Sale button
+On **Flex Banners | PapaThemes Beautify** choose setting. In general tab enable **display content overlaying banner on mobile**. In carousel tab, enable carousel and click on **setting**. In carousel setting , setup following **Items per slide** = `6`, table and mobile = `4`. Enable `show dot`.
 
-To create the Shop Sale button, in Page Builder, drag and drop the **Callout icons widget** to the corresponding position. Delete all other items except the first one. Choose a certain icon, enter the text Shop Sale. Choose **Style** = `Left`, **Theme Style** = `custom`. Enter **font size** = 14px. Enter **icon size** 24 x 24 px.
-
-Edit the layout column, change the **padding** to 0 and **margin left** = `30`. Then change the column background color to any color you want.
-
-Click the Shop Sale widget again. Change the **padding** to 0 and to change the **icon color** and the **text color** to white.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_cYlNVVxjoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### 4 Callout icons
-
-![4 Callout icons](img/4-callout-icons.jpg)
-
-To create 4 callout icons, in Page Builder drag and drop the **Callout icons widget** to the position below the header. Delete all other items except the first one.
-
-Choose the icon you like in **Icon**. Enter **icon size** 24 x 24px. Choose **Text style** = `Custom` and **font size** = `14px`, **text color** = `#262626`, **text color hover** = `#3162df`. Select **Show second text**, select **Hide on mobile** to hide the second text on mobile. Choose **font size** = `14px`. Colors are the same the first text line.
-
-Change **Style** = `Left`, then edit the text directly in page builder. Change **padding** to `15 5 15 5` for desktop and tablet, `10 5 10 5` for mobile. Then duplicate to 4 items and choose different icons for the other items.
+At **Description text** > **setting** change **Description style** = `Custom` set **Font size** = `18px`, **Font site (Mobile)** = `14px` and **Text color** = `#0F0F2D`.
 
 To change the background color, edit the layout, set Layout Background to a certain color that you want.
+
+To setup heading, drag and drop **section heading | PapaThemes Beautify** and type your heading. Change padding **bottom** = `20px`, **alignment** = `center`
 
 **Watch the instruction video:**
 
@@ -388,7 +374,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Header](#header)
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Trustpilot rating image](#trustpilot-rating-image)
 - [Shop Sale button](#shop-sale-button)
 - [4 Callout icons](#4-callout-icons)
 - [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
@@ -458,7 +443,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Header](#header)
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Trustpilot rating image](#trustpilot-rating-image)
 - [Shop Sale button](#shop-sale-button)
 - [4 Callout icons](#4-callout-icons)
 - [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
@@ -546,7 +530,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Header](#header)
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Trustpilot rating image](#trustpilot-rating-image)
 - [Shop Sale button](#shop-sale-button)
 - [4 Callout icons](#4-callout-icons)
 - [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
