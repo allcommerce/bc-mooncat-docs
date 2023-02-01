@@ -149,6 +149,203 @@ To setup heading, drag and drop **section heading | PapaThemes Beautify** and ty
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h4zW6W1KvNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+### Product by category
+
+Desktop
+
+With **Left banner**:
+
+![Product by category](img/product-by-category.png)
+
+With out **Left banner**:
+
+![Product by category](img/product-by-category-2.png)
+
+Go to **Theme Styles** > **Home Page**, in the **Sections** field select **Product by category**.
+
+To create **Left banner**:
+
+Drag & drop the **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all other banners except the first one.
+
+Upload your image in **Image** field. Set **Image Width** = `304px` and **Image Height** `466px`. You can change **Border radius** = `30px`.
+
+If you want to show different image on mobile please enable **show different image on mobile** upload your image in **Image (Mobile)** field. Set **Image Width (Mobile)** = `388px` and **Image Height (Mobile)** = `295px`.
+
+In **Content**, hide **Heading text** if your banner already has text.
+
+In **General** > **Padding** panel, set `0` for all values and `18` for **bottom (Mobile)**.
+
+Select the **Column 1** set padding = `0 0 0 0`.
+
+To change **Border color of the title**:
+
+In **Theme Styles** > **General** > **Link Colors** change color you want.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+
+### Kitten & Puppy
+
+Desktop
+
+![Kitten puppy](img/kitten-puppy.png)
+
+Mobile
+
+![Kitten puppy](img/kittten-puppy-mb.png)
+
+To create banner **kitten puppy**: 
+
+In **Page Builder** drag & drop **Layout** to the corresponding position and change **Columns** = `1`, **Layout** name = `KITTEN PUPPY`.
+
+To create title:
+
+Drag & drop the **Text** widget into **Column 1**. Typing your text (example "KITTEN & PUPPY"). Choose **Font weight** = `Semi Bold`, **Font size** = `32px`, **Text color** = `#FFFFFF`.
+
+Drag & drop the second **Text** widget into **Column 1** below **Text** (KITTEN & PUPPY). Typing your text (example "FEEDING INSTRUCTIONS"). Choose **Font size** = `18px`, **Text color** = `#FFFFFF`.
+
+Drag & drop the **Spacer | PapaThemes Beautify** into **Column 1** about at the top and below **Text** (FEEDING INSTRUCTIONS). Set value **Desktop** = `50px`, **Tablet** = `40px`, **Mobile** = `20px`.
+
+To create content:
+
+Drag & drop the **Flex Banners | PapaThemes Beautify** widget into **Column 1** at the bottom. Delete all other banners except the first one.
+
+Upload your image, set **Image Width** = `345px`, **Image Height** `262px`, **Border radius** = `30px`. If you want to show different image on mobile please enable **show different image on mobile** upload your image in **Image (Mobile)** field.
+
+Duplicate to 4 banners and upload images according to each banner.
+
+In **Content**, hide **Heading text** if your image already has text.
+
+In **General** > **Width** panel choose **Width** = `%` and set **Value (Desktop)** = `25%`, **Value (Tablet)** = `50%`,  **Value (Mobile)** = `50%`. In **Padding** panel set value **Desktop** = `0 14 0 14`, **Tablet** = `0 9 9 0`, **Mobile** = `0 2,5 2,5 0`.
+
+On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 10 0`.
+
+Drag & drop the **Spacer | PapaThemes Beautify** widget into **Column 1** below **Flex Banners | PapaThemes Beautify**. Set value **Desktop** = `172px`, **Tablet** = `155px`, **Mobile** = `115px`.
+
+To create below banner:
+
+Drag & drop the second **Layout** below **Layout (KITTEN PUPPY)** and change **Columns** = `1`, select the **Column 1** set **Padding** = `0 0 0 0`.
+
+Drag & drop **Flex Banners | PapaThemes Beautify** widget into the second **Layout**. Delete all other banners except the first one.
+
+Upload your image, set **Image Width** = `639px`, **Image Height** `373px`, **Border radius** = `30px`. If you want to show different image on mobile please enable **show different image on mobile** upload your image in **Image (Mobile)** field.
+
+In **Content**, hide **Heading text** if your image already has text.
+
+In **General** > **Padding** panel set value **Desktop** = `20 0 50 0`, **Tablet** = `20 0 40 0`, **Mobile** = `20 0 20 0`.
+
+On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **Padding** panel set `0` for all values and `50` for **top (Mobile)**
+
+Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set margin = `0 0 -172 0`, padding = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+
+### Top Brand
+
+![top-brand](img/top-brand.png)
+
+To create **Top brand**:
+
+Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want. 
+
+Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "TOP BRAND"), select custom in **Text style** field, set **Font size** = `30px`, **Text color** = `#FFFFFF`, **Padding** = `30 0 20 0`, **Padding (Mobile)** = `20 0 10 0`.
+
+Drag & drop **Flex Banners | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other banners except the first one.
+
+Upload your image, set **Image width** = `266px`, **Image height** = `266px`, **Border radius** = `266px`. If you want to show different image on mobile please enable **Show different image on mobile** upload your image in **Image (Mobile)** field.
+
+In **Content**, hide **Heading text** if your image has text.
+
+In **General** > **Padding** panel set value **Desktop** = `0 13 30 13`, **Tablet** = `0 8 12 8`, **Mobile** = `0 4 10 4`.
+
+Duplicate to 10 banners and upload images according to each banner.
+
+In **Settings** of **Flex Banners | PapaThemes Beautify**:
+
+In **General** > **Padding** panel set value **Desktop** = `0 0 30 0`, **Tablet** = `0 0 12 0`, **Mobile** = `0 0 10 0`.
+
+In **Carousel**, show **Enable carousel**, in **Carousel settings** panel set value **Items per slide** = `5`, **Items per slide (Tablet)** = `4`, **Items per slide (Mobile)** = `3`, unchecked **Show arrows**.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+### Double banner
+
+Desktop
+
+![Double banner](img/banners.png)
+
+Mobile
+
+![Double banner](img/banners-mb.png)
+
+To create **Double banner**:
+
+Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`, **Name** = `BOXED`.
+
+Select the **Column 1** set **Padding** = `0 0 0 0`.
+
+Drag & drop **Flex Banners | PapaThemes Beautify** widget into **Column 1**.
+
+Select **Banner 1**, upload your image, set **Image width** = `1055px`, **Image height** = `436px`, enable **Show different image on mobile** and upload your image in **Image (Mobile)**, set **Image width (Mobile)** = `388px`, **Image height (Mobile)** = `961px`, **Border radius** = `30px`.
+
+In **Content**, hide **Heading text** if your image has text.
+
+In **General** > **Width** panel choose **Width** = `%`, set **Value (Desktop)** = `70%`, **Value (Tablet)** = `70%`, **Value (Mobile)** = `100%`.
+
+In **General** > **Padding** panel set value **Desktop** = `0 10 0 0`, **Tablet** = `0 5 0 0`, **Mobile** = `0 0 0 0`.
+
+Select **Banner 2** and upload image corresponding, set **Image width** = `435px`, **Image height** = `435px`, **Border radius** = `30px`. If you want to show different image on mobile please enable **Show different image on mobile**.
+
+In **Content**, hide **Heading text** if your image has text.
+
+In **General** > **Width** panel choose **Width** = `%`, set **Value (Desktop)** = `30%`, **Value (Tablet)** = `30%`, **Value (Mobile)** = `100%`.
+
+In **General** > **Padding** panel set value **Desktop** = `0 0 0 20`, **Tablet** = `0 0 0 10`, **Mobile** = `25 0 0 0`.
+
+In **Settings** of **Flex Banners | PapaThemes Beautify** > **General** unchecked **Display banners in container div** and checked **Display content overlaying banner on mobile**.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+
+### Banner
+
+Desktop
+
+![Banner](img/banner.png)
+
+Mobile
+
+![Banner](img/banner-mb.png)
+
+To create **Banner**:
+
+Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`, **Name** = `BOXED`.
+
+Select **Column 1**, set **Padding** = `0 0 0 0`.
+
+Drag & drop **Flex Banners | PapaThemes Beautify** widget into **Colum 1**. Delete all other banners except the first one.
+
+Upload your image, set **Image width** = `1720px`, **Image height** = `458`, **Border radius** = `30px`. Enable **Show different image on mobile**, upload your image in **Image (Mobile)**, set **Image width (Mobile)** = `388px`, **Image height (Mobile)** = `655px`, **Border radius** = `30px`.
+
+In **Content**, hide **Heading text** if your image has text.
+
+In **General** > **Padding**, set `0` for all values.
+
+In **Settings** of **Flex Banners | PapaThemes Beautify** > **General**, unchecked **Display banners in container div** and checked **Display content overlaying banner on mobile**.
+
+**Watch the instruction video:**
+
+(wait for resource)
+
 
 ### Service icons
 
