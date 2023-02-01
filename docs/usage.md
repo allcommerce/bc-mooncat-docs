@@ -150,31 +150,6 @@ To setup heading, drag and drop **section heading | PapaThemes Beautify** and ty
 
 
 
-### Service icons
-
-![service-icons-on-homepage](img/service-icons-on-homepage.jpg)
-
-Drag & drop the **Layout** to the corresponding position, change **Padding** = `30 10.5 40 10.5`. Change the **Layout background color** to `#EFF5FA`.
-
-Drag & drop the **Callout Icons** widget to the layout. Delete all other items except the first one.
-
-Select **Icon** = `Choose Image`, then upload your icon image. Set Icon width & height accordingly (example 100 x 100 px).
-
-Set **Width** = `20%` for desktop, `20%` for tablet and `33.33%` for mobile to display 5 icons on desktop and tablet and 3 icons per row on mobile.
-
-Set **Padding**, **Desktop** = `10 5 30 5`, **Tablet** = `10 5 30 5`, **Mobile** = `10 5 15 5`.
-
-Set Text **font size** = `18px`, **font size (mobile)** = `16px`. **Text color** = `#262626`.
-
-Duplicate the icons to 5 icons and choose different image for each icon.
-
-To add the title, drag & drop the **Section Heading | PapaThemes Beautify** widget to above the icons. Set **Padding** = `40 0 0 0` and **Padding (Mobile)** = `20 0 10 0`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DItG-eoAnew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ### Category banners
 
 ![edit-category-banners](img/edit-category-banners.jpg)
@@ -199,27 +174,6 @@ Duplicate to 6 banners and upload different image for each banner.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DKxxYwLdREU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### FAQs content section
-
-![edit-faqs-section](img/edit-faqs-section.jpg)
-
-Drag & drop **Leaderboard Banner | PapaThemes Beautify** widget to the corresponding position. 
-
-Upload image in **Image** field and enter **Banner height** accordingly (we suggest 520px for desktop and 600px for mobile).
-
-Enter **banner link**, for example `/faq/`. Set **Content align** = `center` & `middle`.
-
-In **Heading** group, Set **font size** = `40px`, **Heading color** = **Heading color (mobile)** = `#ffffff`.
-
-In **Text** group, Set **Font size** = `16px`, **Text color** = **Text color (mobile)** = `#ffffff`.
-
-In **Button** group, Set **Button style** = `Custom`, **Button radius** = `0`, **Button color** = `#ffffff`, **Button color hover** = `#111111`, **Button text color** = `#111111`, **Button text color hover** = `#ffffff`.
-
-Edit content directly in Page Builder.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9jWhrCYXi5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Special products tabs
@@ -261,16 +215,6 @@ You can configure bestselling products section settings in **Page Builder** > **
 Recently Viewed Products will be display automatically viewed any product.
 
 You can configure recently viewed products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Recently Viewed Products** selected. In **Recently Viewed Products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
-
-### Customer reviews
-
-![edit-customer-reviews](img/edit-customer-reviews.jpg)
-
-To display the customer reviews on the home page, drag & drop the **Customer Reviews | PapaThemes Beautify** widget to the corresponding position. You can edit the title, content, author directly in the Page Builder.
-
-Select **Style for theme** = `Beautify Furniture` to display the style like our demo store.
-
-To create the title, drag & drop the **Section Heading | PapaThemes Beautify** widget to above the reviews. Set **Padding** = `60 0 20 0` and **Padding (Mobile)** = `40 0 10 0`.
 
 
 ### Instagram photos
