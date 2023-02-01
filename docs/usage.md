@@ -255,9 +255,15 @@ Edit content directly in Page Builder.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9jWhrCYXi5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+### Special products tabs
+
+![special-products-tabs](img/special-products-tabs.jpg)
+
+You can configure special products tabs section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Special Products Tabs** selected. In **New / Featured / Bestselling Tabs** section, Change **Number of products** = `5` and **Number of products load more on viewport** = `0`. You can change **Default tab** to `Featured` or `Bestselling` or `New`. **Display type** can be changed to `Carousel` or `Grid`. **Show more button**, **featured products**, **bestselling products**, **new products**, **categories** can be enabled by checked box.
+
 ### Featured products
 
-![featured-products](img/featured-products.jpg)
+![featured-products](img/feature-product.jpg)
 
 You can set featured products in **Products**, click the **star** icon on the same row to set the product as featured.
 
@@ -269,13 +275,25 @@ Go back to **Page Builder** > **Theme Styles** > **Home Page**, make sure one of
 
 ### New products
 
+![new-products](img/new-product.jpg)
+
 You can configure new products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **New Products** selected. In **New products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
 
 ### Bestselling products
 
+![bestselling-products](img/best-selling-product.jpg)
+
 Bestselling products only display when your store has some order.
 
 You can configure bestselling products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Popular Products** selected. In **Best-sellers products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
+
+### Recently Viewed Products
+
+![bestselling-products](img/recently-viewed-product.jpg)
+
+Recently Viewed Products will be display automatically viewed any product.
+
+You can configure recently viewed products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Recently Viewed Products** selected. In **Recently Viewed Products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
 
 ### Customer reviews
 
@@ -319,7 +337,7 @@ To create the title, drag & drop the **Section Heading** widget to above the Ins
 
 You can add blog posts in Storefront > Blog. Click the **+** button to add a new blog post. Make sure **Blog Visibility** is `on`.
 
-To display the recent blog posts on the home page, go to Page Builder. In Theme Styles > Home Page, make sure one of Sections has **Recent Blog** selected. Scroll down the Recent Blog section, you can configure **Heading**, **Number of posts** to display. Select **Style** = `Grocery` to display like our demo store. You can change the **Background color** = `#f5f5f5` or any color you want.
+To display the recent blog posts on the home page, go to Page Builder. In Theme Styles > Home Page, make sure one of Sections has **Recent Blog** selected. Scroll down the Recent Blog section, you can configure **Heading**, **Number of posts** to display. Select **Style** = `Grocery` to display like our demo store. You can change the **Background color** = `#ffffff` or any color you want.
 
 **Watch the instruction video:**
 
@@ -332,7 +350,8 @@ To display the recent blog posts on the home page, go to Page Builder. In Theme 
 
 To enable newsletter form, go to **Marketing** > **Email Marketing**, make sure **Allow Newsletter Subscriptions** is checked. Optionally select **Show Newsletter Summary** and enter the summary text as you want.
 
-Go to Page Builder, in **Theme Styles** > **Footer** > **Newsletter** section, select **Style** = `Default`. Make sure **Show newsletter form** is selected. You can change the **Heading**, **background color**, **background image**, **button** and **text colors**.
+Go to Page Builder, in **Theme Styles** > **Footer** > **Newsletter** section, select **Style** = `Default`. Select **Show store logo** and **Show social icons** = `In newsletter`.
+Make sure **Show newsletter form** is selected. You can change the **Heading**, **background color**, **background image**, **button** and **text colors**.
 
 **Watch the instruction video:**
 
@@ -534,6 +553,7 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [4 Callout icons](#4-callout-icons)
 - [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
