@@ -85,45 +85,6 @@ The code allows to animate the text sliding from left to right on smaller screen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gG1WesJPkkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Top categories
-
-Desktop
-![Top categories](img/top-categories.jpg)
-
-Mobile
-
-![Top categories](img/top-categories-mobile.jpg)
-
-To create Top categories, in Page Builder drag and drop the **Layout widget** to the position **home below carousel**. Select the layout change column to 1 and change **layout name** = `TOP CATEGORIES`.
-
-Drag and drop **Flex Banners | PapaThemes Beautify** to the layout delete all the items except the first one then change to your image change **width** = `237` and **height** = `100`. If you want to show different image on mobile please enable **show different image on mobile** change to your image on mobile and set **width** = `82`, **height** = `120`. Open content tab disable heading and enable description change **content align** = `center`, Content padding **Top** = `12px` **Left** = `60px`. In general tab change padding **Top, right, bottom, left** = `8px`. 
-
-On **Flex Banners | PapaThemes Beautify** choose setting. In general tab enable **display content overlaying banner on mobile**. In carousel tab, enable carousel and click on **setting**. In carousel setting , setup following **Items per slide** = `6`, table and mobile = `4`. Enable `show dot`.
-
-At **Description text** > **setting** change **Description style** = `Custom` set **Font size** = `18px`, **Font site (Mobile)** = `14px` and **Text color** = `#0F0F2D`.
-
-To change the background color, edit the layout, set Layout Background to a certain color that you want.
-
-To setup heading, drag and drop **section heading | PapaThemes Beautify** and type your heading. Change padding **bottom** = `20px`, **alignment** = `center`
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h4zW6W1KvNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Ad Banner below the header displays on all pages
-
-![ad-banner-below-header](img/ad-banner-below-header.jpg)
-
-To create ad banner below the header appearing on all pages, drag & drop to **Text** widget to the corresponding position. Edit the text as you want. Choose **font size** = `14px`, **color** = `#ffffff`, **align** = `center`, **padding** = `8 0 8 0`.
-
-Change the **layout background color** = `#3162df` or any color you want.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T8nu-5BPcYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ### Main carousel
 
 ![main-carousel-manager](img/main-carousel-manager.jpg)
@@ -136,7 +97,7 @@ Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Ca
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HT44vYYQbnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Top brands carousel
+### Brand logos
 
 
 ![Top-column-carousel](img/brands-top-carousel.jpg)
@@ -162,25 +123,31 @@ To display right banner in Main carousel, click on **Theme Styles** > **Home Pag
 
 (wait for resource)
 
-### Brand logos
+### Top categories
 
-![brand-logos-on-homepage](img/brand-logos-on-homepage.jpg)
+Desktop
+![Top categories](img/top-categories.jpg)
 
-To display the brand images on the home page, in Page Builder, drag & drop the **Flex Banners | PapaThemes Beautify** to the corresponding position, delete all other banner items except the first item.
+Mobile
 
-Upload the image in **Image** field, and enter the **image width** & **height** accordingly (for example 150 x 80 px). Change **Border radius** = `0`. In **Content** group, Hide **Heading text**.
+![Top categories](img/top-categories-mobile.jpg)
 
-In **General** group, choose **Width** = `%` and set **Value (Desktop)** = `8.33%`, **Value (Tablet)** = `16.66%`, **Value (Mobile)** = `33.33%` to display 12 images per row on desktop, 6 images per row on tablet and 3 banners per row on mobile. In **Padding** panel, set `5` for all values. Unselect **Display banners in container div** to display full width.
+To create Top categories, in Page Builder drag and drop the **Layout widget** to the position **home below carousel**. Select the layout change column to 1 and change **layout name** = `TOP CATEGORIES`.
 
-Duplicate to 12 banners and upload images accordingly for each banner.
+Drag and drop **Flex Banners | PapaThemes Beautify** to the layout delete all the items except the first one then change to your image change **width** = `237` and **height** = `100`. If you want to show different image on mobile please enable **show different image on mobile** change to your image on mobile and set **width** = `82`, **height** = `120`. Open content tab disable heading and enable description change **content align** = `center`, Content padding **Top** = `12px` **Left** = `60px`. In general tab change padding **Top, right, bottom, left** = `8px`. 
 
-To display the title, using drag & drop the **Section Heading | PapaThemes Beautify** widget to the corresponding position above the brand widget. Set **Padding** = `60 0 40 0`, and **Padding (Mobile)** = `40 0 20 0` as suggested.
+On **Flex Banners | PapaThemes Beautify** choose setting. In general tab enable **display content overlaying banner on mobile**. In carousel tab, enable carousel and click on **setting**. In carousel setting , setup following **Items per slide** = `6`, table and mobile = `4`. Enable `show dot`.
 
-Optionally adding a extra spacing below the brand images using **Spacer | PapaThemes Beautify** widget, set **Desktop** = `50px`, **Tablet** = `30px` and **Mobile** = `30px`.
+At **Description text** > **setting** change **Description style** = `Custom` set **Font size** = `18px`, **Font site (Mobile)** = `14px` and **Text color** = `#0F0F2D`.
+
+To change the background color, edit the layout, set Layout Background to a certain color that you want.
+
+To setup heading, drag and drop **section heading | PapaThemes Beautify** and type your heading. Change padding **bottom** = `20px`, **alignment** = `center`
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/StgI5Ns3rWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h4zW6W1KvNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ### Service icons
@@ -290,7 +257,7 @@ To create the title, drag & drop the **Section Heading | PapaThemes Beautify** w
 
 ### Instagram photos
 
-![edit-instagram](img/edit-instagram.jpg)
+![edit-instagram](img/edit-instagram.png)
 
 To display your Instagram photos, open <https://instagram.papathemes.com/> Follow the instruction on this page to [Connect your Facebook Page with your Instagram account](https://www.facebook.com/business/help/898752960195806). Then click **Login With Facebook** button and follow the further steps to authorize access permission. Click **Show Embedding Code** button to generate the code embedding to your web store. Choose **Preset** = `Carousel` and select **LazyLoad**.
 
