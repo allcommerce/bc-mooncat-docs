@@ -846,6 +846,18 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 
 Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
 
+### Category Layout Type
+
+Theme supports displaying category Page layout in `Full width` mode or `Left sidebar` mode. In **Layout**, select the particular display mode for default display.
+
+- **Layout** = `Full width`
+
+![full-width](img/category-fullwidth.jpg)
+
+- **Layout** = `Left sidebar`
+ 
+![left-sidebar](img/category-leftsidebar.jpg)
+
 ### Products Display Type
 
 Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row), in list mode or bulk order mode. In **Products display type**, select the particular display mode for default display.
@@ -886,6 +898,17 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row),
 To display this bulk order layout, select **Products display type** = `Bulk order`.
 
 ![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
+
+### Infinite Products Loading
+
+This feature allows you to choose the method of loading more products in the current catalog.
+
+![infinite-product-loading](img/infinite-product-loading.jpg)
+
+**Infinite Products Loading**:
+  - `On scroll`: Products will automatic loadout when scrolling down.
+  - `Load more button`: Click on the **Load more button** to continue loading more products.
+  - `Off`: Show **page numbers** and **arrow** button as original. Click on button to see more products.
 
 ### Display contextual search
 
