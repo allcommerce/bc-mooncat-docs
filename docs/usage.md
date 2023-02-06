@@ -60,6 +60,21 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Header Quick search
+
+To configure the Quick Search, click on **Theme Styles** > **Header**. In **Quick Search** section you can to change the colors text, hover, border, and background of the search form.
+
+You can change popular search keywords.
+
+![header-quick-search](img/quick-search.jpg)
+
+### Main navigation
+
+To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can to change the colors text, hover, border, and background of the main navigation.
+
+You can also configure the **Menu style**, hide or **Show web page links** and **Show widgets in the mega menu**.
+
+**Watch the instruction video:**
 
 ### Home page carousel section
 
@@ -75,7 +90,12 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 ```html
 <p data-marquee>
-  15% OFF WITH CODE CBD15 + FREE SHIPPING > $99. USE IT NOW.
+  <span class="button button--primary button--small">10% Off</span>
+  <span>&nbsp;&nbsp;&nbsp;$50+ WHEN YOU BUY ONLINE & PICK UP IN - STORE&nbsp;&nbsp;&nbsp;</span>
+  <a href="/store">SHOP NOW</a>
+  <span style="color: rgba(255,255,255,0.3)">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+  <span>SAVE 35% ON YOUR FIRST&nbsp;&nbsp;&nbsp;</span>
+  <a href="/store">LEARN MORE</a>
 </p>
 ```
 
@@ -186,7 +206,7 @@ In **Theme Styles** > **General** > **Link Colors** change color you want.
 (wait for resource)
 
 
-### Kitten & Puppy
+### Kitten and Puppy
 
 Desktop
 
@@ -499,22 +519,30 @@ You can add custom links to the footer using **Footer Links** widget. Drag & dro
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Header Quick search](#header-quick-search)
+- [Main navigation](#main-navigation)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Shop Sale button](#shop-sale-button)
-- [4 Callout icons](#4-callout-icons)
-- [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
-- [Service icons](#service-icons)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
+- [Top categories](#top-categories)
+- [Product by category](#product-by-category)
+- [Kitten and Puppy](#kitten-and-puppy)
+- [Top Brand](#top-brand)
+- [Double banner](#double-banner)
+- [Banner](#banner)
 - [Category banners](#category-banners)
+- [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
-- [Customer reviews](#customer-reviews)
+- [Recently Viewed Products](#recently-viewed-products)
 - [Instagram photos](#instagram-photos)
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
 - [Footer](#footer)
+
 
 
 ### Featured in logos
@@ -568,18 +596,25 @@ In **Button** group, choose showing **Button**. Set **button style** = `Square`,
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Header Quick search](#header-quick-search)
+- [Main navigation](#main-navigation)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Shop Sale button](#shop-sale-button)
-- [4 Callout icons](#4-callout-icons)
-- [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
-- [Service icons](#service-icons)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
+- [Top categories](#top-categories)
+- [Product by category](#product-by-category)
+- [Kitten and Puppy](#kitten-and-puppy)
+- [Top Brand](#top-brand)
+- [Double banner](#double-banner)
+- [Banner](#banner)
 - [Category banners](#category-banners)
+- [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
-- [Customer reviews](#customer-reviews)
+- [Recently Viewed Products](#recently-viewed-products)
 - [Instagram photos](#instagram-photos)
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
@@ -655,17 +690,25 @@ In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Butto
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Header Quick search](#header-quick-search)
+- [Main navigation](#main-navigation)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Shop Sale button](#shop-sale-button)
-- [4 Callout icons](#4-callout-icons)
-- [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
+- [Top categories](#top-categories)
+- [Product by category](#product-by-category)
+- [Kitten and Puppy](#kitten-and-puppy)
+- [Top Brand](#top-brand)
+- [Double banner](#double-banner)
+- [Banner](#banner)
+- [Category banners](#category-banners)
 - [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
-- [Customer reviews](#customer-reviews)
+- [Recently Viewed Products](#recently-viewed-products)
 - [Instagram photos](#instagram-photos)
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
@@ -977,14 +1020,15 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row),
 
 ![products-display-type-grid6](img/products-display-type-grid6.jpg)
 
-**Bulk Order mode:**
-
-![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
-
 **List mode:**
 
 ![products-display-type-list](img/products-display-type-list.jpg)
 
+### Display Bulk Order layout
+
+To display this bulk order layout, select **Products display type** = `Bulk order`.
+
+![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
 
 ### Displaying Shop by Brand
 
@@ -1001,12 +1045,6 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row),
 
 ![shop-by-price-slider](img/shop-by-price-slider.jpg)
 
-### Display Bulk Order layout
-
-To display this bulk order layout, select **Products display type** = `Bulk order`.
-
-![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
-
 ### Infinite Products Loading
 
 This feature allows you to choose the method of loading more products in the current catalog.
@@ -1014,8 +1052,11 @@ This feature allows you to choose the method of loading more products in the cur
 ![infinite-product-loading](img/infinite-product-loading.jpg)
 
 **Infinite Products Loading**:
+
   - `On scroll`: Products will automatic loadout when scrolling down.
+
   - `Load more button`: Click on the **Load more button** to continue loading more products.
+
   - `Off`: Show **page numbers** and **arrow** button as original. Click on button to see more products.
 
 ### Display contextual search
