@@ -200,6 +200,8 @@ To create banner **kitten puppy**:
 
 In **Page Builder** drag & drop **Layout** to the corresponding position and change **Columns** = `1`, **Layout** name = `KITTEN PUPPY`.
 
+Select the **Column 1**, in **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want.
+
 To create title:
 
 Drag & drop the **Text** widget into **Column 1**. Typing your text (example "KITTEN & PUPPY"). Choose **Font weight** = `Semi Bold`, **Font size** = `32px`, **Text color** = `#FFFFFF`.
@@ -214,13 +216,13 @@ Drag & drop the **Flex Banners | PapaThemes Beautify** widget into **Column 1** 
 
 Upload your image, set **Image Width** = `345px`, **Image Height** `262px`, **Border radius** = `30px`. If you want to show different image on mobile please enable **show different image on mobile** upload your image in **Image (Mobile)** field.
 
-Duplicate to 4 banners and upload images according to each banner.
-
 In **Content**, hide **Heading text** if your image already has text.
 
 In **General** > **Width** panel choose **Width** = `%` and set **Value (Desktop)** = `25%`, **Value (Tablet)** = `50%`,  **Value (Mobile)** = `50%`. In **Padding** panel set value **Desktop** = `0 14 0 14`, **Tablet** = `0 9 9 0`, **Mobile** = `0 2,5 2,5 0`.
 
-On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 10 0`.
+Duplicate to 4 banners and upload images according to each banner.
+
+On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 0 10`.
 
 Drag & drop the **Spacer | PapaThemes Beautify** widget into **Column 1** below **Flex Banners | PapaThemes Beautify**. Set value **Desktop** = `172px`, **Tablet** = `155px`, **Mobile** = `115px`.
 
@@ -238,7 +240,7 @@ In **General** > **Padding** panel set value **Desktop** = `20 0 50 0`, **Tablet
 
 On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **Padding** panel set `0` for all values and `50` for **top (Mobile)**
 
-Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set margin = `0 0 -172 0`, padding = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want.
+Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set **Margin** = `0 0 -172 0`, **Padding** = `0 0 0 0`.
 
 **Watch the instruction video:**
 
