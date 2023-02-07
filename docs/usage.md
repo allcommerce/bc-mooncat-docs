@@ -61,6 +61,25 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+### Products Feed
+
+![products-feed](img/products-feed.png)
+
+To create **Product feed**:
+
+Drag and drop **Layout** widget to the corresponding position, change **Column** = `1`. Select **Column 1**, set **Padding** = `0 0 0 0`.
+
+Drag and drop **Section Heading | PapaThemes Beautify** widget into **Column 1**. Typing your text (example "Feature Box Items"), set **Padding** = `10 0 10 0`, **Padding (Mobile)** = `10 0 10 0`.
+
+Drag and drop **Products Feed | PapaThemes Beautify** widget into **Column 1** below **Section Heading** widget. In **Products** enter the page URL to fetch products (example `/bird/`). Enter your template file in 'components/' directory (example `beautify/products-feed/list`).
+
+Change **Limit** = `3`
+
+**Watch the instruction video:**
+
+(wait for resource)
+
+
 ### Home page carousel section
 
 Go back to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail. You can see the top banner appears above the header. To change the colors of the top banner, go to **Theme Styles** > **General** > **Top banners** section. Here you can change the text color and the background color.
