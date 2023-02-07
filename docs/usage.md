@@ -200,6 +200,8 @@ To create banner **kitten puppy**:
 
 In **Page Builder** drag & drop **Layout** to the corresponding position and change **Columns** = `1`, **Layout** name = `KITTEN PUPPY`.
 
+Select the **Column 1**, in **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background, that you want.
+
 To create title:
 
 Drag & drop the **Text** widget into **Column 1**. Typing your text (example "KITTEN & PUPPY"). Choose **Font weight** = `Semi Bold`, **Font size** = `32px`, **Text color** = `#FFFFFF`.
@@ -214,13 +216,13 @@ Drag & drop the **Flex Banners | PapaThemes Beautify** widget into **Column 1** 
 
 Upload your image, set **Image Width** = `345px`, **Image Height** `262px`, **Border radius** = `30px`. If you want to show different image on mobile please enable **show different image on mobile** upload your image in **Image (Mobile)** field.
 
-Duplicate to 4 banners and upload images according to each banner.
-
 In **Content**, hide **Heading text** if your image already has text.
 
 In **General** > **Width** panel choose **Width** = `%` and set **Value (Desktop)** = `25%`, **Value (Tablet)** = `50%`,  **Value (Mobile)** = `50%`. In **Padding** panel set value **Desktop** = `0 14 0 14`, **Tablet** = `0 9 9 0`, **Mobile** = `0 2,5 2,5 0`.
 
-On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 10 0`.
+Duplicate to 4 banners and upload images according to each banner.
+
+On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 0 10`.
 
 Drag & drop the **Spacer | PapaThemes Beautify** widget into **Column 1** below **Flex Banners | PapaThemes Beautify**. Set value **Desktop** = `172px`, **Tablet** = `155px`, **Mobile** = `115px`.
 
@@ -238,7 +240,7 @@ In **General** > **Padding** panel set value **Desktop** = `20 0 50 0`, **Tablet
 
 On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **Padding** panel set `0` for all values and `50` for **top (Mobile)**
 
-Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set margin = `0 0 -172 0`, padding = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want.
+Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set **Margin** = `0 0 -172 0`, **Padding** = `0 0 0 0`.
 
 **Watch the instruction video:**
 
@@ -251,7 +253,7 @@ Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set margin = `0 0 -
 
 To create **Top brand**:
 
-Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want. 
+Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload your.
 
 Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "TOP BRAND"), select custom in **Text style** field, set **Font size** = `30px`, **Text color** = `#FFFFFF`, **Padding** = `30 0 20 0`, **Padding (Mobile)** = `20 0 10 0`.
 
@@ -809,8 +811,6 @@ Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 ### Display sale badge / in-stock badge on PDP
 
-![sale-badges-pdp](img/sale-badges-pdp.jpg)
-
 Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 - Tick **Show sale badge** checkbox.
@@ -872,7 +872,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 - Dropdown: Displaying swatches in the dropdown select box.
 - Dropdown + Square: Displaying swatches in the dropdown select box in addition to regular swatches.
 
-![swatch-dropdown](img/swatch-dropdown.jpg)
+![swatch-dropdown](img/swatch-dropdown.png)
 
 
 ### Displaying Frequently Bought Together Products
@@ -882,8 +882,8 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 Enabling this feature in **Page Builder** > **Theme Styles** > **Products** > **Frequently Bought Together**, Select **Position** to display it.
 
 - **Load products from**: Specifing products to display here.
-  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `__alsobought` and value is the relevant product ID. For example:
-  ![edit-product-bought-together](img/edit-product-bought-together.png)
+  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `Wine vintage, Custom Field 1,...` and value is the relevant product ID. For example:
+  ![edit-product-bought-together](img/edit-product-bought-together.jpg)
   - `Related products`: Pulling from the related products.
   - `Similar by biews`: Pulling from customer also viewed products.
 - **Auto select all items**: Auto select or unselect all frequently bought together products.
@@ -925,6 +925,18 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 
 Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
 
+### Category Layout Type
+
+Theme supports displaying category Page layout in `Full width` mode or `Left sidebar` mode. In **Layout**, select the particular display mode for default display.
+
+- **Layout** = `Full width`
+
+![full-width](img/category-fullwidth.jpg)
+
+- **Layout** = `Left sidebar`
+ 
+![left-sidebar](img/category-leftsidebar.jpg)
+
 ### Products Display Type
 
 Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row), in list mode or bulk order mode. In **Products display type**, select the particular display mode for default display.
@@ -965,6 +977,17 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row),
 To display this bulk order layout, select **Products display type** = `Bulk order`.
 
 ![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
+
+### Infinite Products Loading
+
+This feature allows you to choose the method of loading more products in the current catalog.
+
+![infinite-product-loading](img/infinite-product-loading.jpg)
+
+**Infinite Products Loading**:
+  - `On scroll`: Products will automatic loadout when scrolling down.
+  - `Load more button`: Click on the **Load more button** to continue loading more products.
+  - `Off`: Show **page numbers** and **arrow** button as original. Click on button to see more products.
 
 ### Display contextual search
 
