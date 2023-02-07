@@ -71,9 +71,9 @@ Drag and drop **Layout** widget to the corresponding position, change **Column**
 
 Drag and drop **Section Heading | PapaThemes Beautify** widget into **Column 1**. Typing your text (example "Feature Box Items"), set **Padding** = `10 0 10 0`, **Padding (Mobile)** = `10 0 10 0`.
 
-Drag and drop **Products Feed | PapaThemes Beautify** widget into **Column 1** below **Section Heading** widget. In **Products** enter the page URL to fetch products (example `/bird/`). Enter your template file in 'components/' directory (example `beautify/products-feed/list`).
+Drag and drop **Products Feed | PapaThemes Beautify** widget into **Column 1** below **Section Heading** widget. In **Products** enter the page URL to fetch products (example `/bird/`). Checked **Render with template** and enter your template file in 'components/' directory (example `beautify/products-feed/list`).
 
-Change **Limit** = `3`
+Change **Limit** = `3`.
 
 **Watch the instruction video:**
 
