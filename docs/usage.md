@@ -54,27 +54,58 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 **Main Navigation** allows to customize this navigation bar like changing the menu type to column, dropdown menu or mega menu; changing colors of the top menu as well as the sub-menus. There is an option "**Hide webpage links**" that allows to hide the static web page links on the main navigation.
 
+To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can to change the colors text, hover, border, and background of the main navigation.
+
+![main-navigation](img/main-navigation.jpg)
+
+Config settings for main navigation:
+
+- **Root menu item color**: text color of root menu item.
+
+- **+ Hover**: text color on hover on the root menu item.
+
+- **+ Background**: background color of sub menu block.
+
+- **+ Background (Mobile)**: background color of menu on mobile device.
+
+- **Sub menu item color**: text color of the submenu item.
+
+- **+ Hover**: text color on hover on the submenu item.
+
+- **+ Background**: background color of the submenu item.
+
+- **+ Background hover**: background color on hover on the submenu item.
+
+- **+ Border**: border-color of mega menu popup.
+
+You can also configure the **Menu style**, hide or **Show web page links** and **Show widgets in the mega menu**.
+
+Config **Menu style** :
+
+- `Mega menu`: show sub-menu item megamenu popup style.
+
+![mega-menu](img/mega-menu.jpg)
+
+- `Dropdown`: show sub-menu item dropdown style.
+
+![dropdown-menu](img/dropdown-menu.jpg)
+
+- `Column`: show sub-menu item column style.
+
+![column-menu](img/column-menu.jpg)
+
+
 **Quick Search** allows to change the colors of the search form.
+
+To configure the Quick Search, click on **Theme Styles** > **Header**. In **Quick Search** section you can to change the colors text, hover, border, and background of the search form.
+
+To change popular search keywords, type your text in popular search keywords field as picture below.
+
+![header-quick-search](img/quick-search.jpg)
 
 **Watch the instruction video:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Header Quick search
-
-To configure the Quick Search, click on **Theme Styles** > **Header**. In **Quick Search** section you can to change the colors text, hover, border, and background of the search form.
-
-You can change popular search keywords.
-
-![header-quick-search](img/quick-search.jpg)
-
-### Main navigation
-
-To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can to change the colors text, hover, border, and background of the main navigation.
-
-You can also configure the **Menu style**, hide or **Show web page links** and **Show widgets in the mega menu**.
-
-**Watch the instruction video:**
 
 ### Home page carousel section
 
@@ -92,7 +123,6 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 <p data-marquee>
   <span class="button button--primary button--small">10% Off</span>
   <span>&nbsp;&nbsp;&nbsp;$50+ WHEN YOU BUY ONLINE & PICK UP IN - STORE&nbsp;&nbsp;&nbsp;</span>
-  <a href="/store">SHOP NOW</a>
   <span style="color: rgba(255,255,255,0.3)">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
   <span>SAVE 35% ON YOUR FIRST&nbsp;&nbsp;&nbsp;</span>
   <a href="/store">LEARN MORE</a>
@@ -519,8 +549,6 @@ You can add custom links to the footer using **Footer Links** widget. Drag & dro
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Header Quick search](#header-quick-search)
-- [Main navigation](#main-navigation)
 - [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
@@ -596,8 +624,6 @@ In **Button** group, choose showing **Button**. Set **button style** = `Square`,
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Header Quick search](#header-quick-search)
-- [Main navigation](#main-navigation)
 - [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
@@ -690,8 +716,6 @@ In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Butto
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Header Quick search](#header-quick-search)
-- [Main navigation](#main-navigation)
 - [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
