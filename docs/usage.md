@@ -107,7 +107,11 @@ To change popular search keywords, type your text in popular search keywords fie
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 ### Home page carousel section
+
+### Top Banner
+
 
 Go back to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail. You can see the top banner appears above the header. To change the colors of the top banner, go to **Theme Styles** > **General** > **Top banners** section. Here you can change the text color and the background color.
 
@@ -250,6 +254,8 @@ To create banner **kitten puppy**:
 
 In **Page Builder** drag & drop **Layout** to the corresponding position and change **Columns** = `1`, **Layout** name = `KITTEN PUPPY`.
 
+Select the **Column 1**, in **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background, that you want.
+
 To create title:
 
 Drag & drop the **Text** widget into **Column 1**. Typing your text (example "KITTEN & PUPPY"). Choose **Font weight** = `Semi Bold`, **Font size** = `32px`, **Text color** = `#FFFFFF`.
@@ -264,13 +270,13 @@ Drag & drop the **Flex Banners | PapaThemes Beautify** widget into **Column 1** 
 
 Upload your image, set **Image Width** = `345px`, **Image Height** `262px`, **Border radius** = `30px`. If you want to show different image on mobile please enable **show different image on mobile** upload your image in **Image (Mobile)** field.
 
-Duplicate to 4 banners and upload images according to each banner.
-
 In **Content**, hide **Heading text** if your image already has text.
 
 In **General** > **Width** panel choose **Width** = `%` and set **Value (Desktop)** = `25%`, **Value (Tablet)** = `50%`,  **Value (Mobile)** = `50%`. In **Padding** panel set value **Desktop** = `0 14 0 14`, **Tablet** = `0 9 9 0`, **Mobile** = `0 2,5 2,5 0`.
 
-On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 10 0`.
+Duplicate to 4 banners and upload images according to each banner.
+
+On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **General** disable **Display banners in container div**, change **Your theme name** = `mooncat`, in **Padding** panel set value **Desktop** = `0 15 0 15`, **Tablet** = `0 18 0 18`, **Mobile** = `0 10 0 10`.
 
 Drag & drop the **Spacer | PapaThemes Beautify** widget into **Column 1** below **Flex Banners | PapaThemes Beautify**. Set value **Desktop** = `172px`, **Tablet** = `155px`, **Mobile** = `115px`.
 
@@ -288,7 +294,7 @@ In **General** > **Padding** panel set value **Desktop** = `20 0 50 0`, **Tablet
 
 On **Flex Banners | PapaThemes Beautify** choose **Settings**. In **Padding** panel set `0` for all values and `50` for **top (Mobile)**
 
-Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set margin = `0 0 -172 0`, padding = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want.
+Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set **Margin** = `0 0 -172 0`, **Padding** = `0 0 0 0`.
 
 **Watch the instruction video:**
 
@@ -301,7 +307,7 @@ Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set margin = `0 0 -
 
 To create **Top brand**:
 
-Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want. 
+Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload your.
 
 Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "TOP BRAND"), select custom in **Text style** field, set **Font size** = `30px`, **Text color** = `#FFFFFF`, **Padding** = `30 0 20 0`, **Padding (Mobile)** = `20 0 10 0`.
 
@@ -397,37 +403,18 @@ In **Settings** of **Flex Banners | PapaThemes Beautify** > **General**, uncheck
 (wait for resource)
 
 
-### Category banners
-
-![edit-category-banners](img/edit-category-banners.jpg)
-
-Drag & drop the **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all other banners except the first one.
-
-Upload your image in **Image** field. Set **Image Width** and **height** accordingly (our suggested size: 400x450px). Change **Border radius** = `0`.
-
-In **Content** group, change **content align** to `center` & `top`. **Content pading** = `30 30 30 30`.
-
-In **Heading text** panel, Choose **Text style** = `custom`, set **Font weight** = `Semi Bold`, **Font size** = `36px`, **Font size (mobile)** = `16px`, **Text color** = **Text color hover** = `#ffffff`, **Text color (mobile)** = **Text color hover (mobile)** = `#262626`.
-
-In **General** group:
-
-- In **Width** panel, set **Width** = `%` and **Value (Desktop)** = **Value (Tablet)** = `33.33%`, **Value (Mobile)** = `50%` to display 3 banners per row on desktop & tablet and 2 banners per row on mobile. 
-- In **Padding** panel, set **Desktop** = **Tablet** = `10 10 10 10`, **Mobile** = `5 5 5 5`.
-
-Duplicate to 6 banners and upload different image for each banner.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DKxxYwLdREU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 
 ### Special products tabs
 
 ![special-products-tabs](img/special-products-tabs.jpg)
 
-You can configure special products tabs section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Special Products Tabs** selected. In **New / Featured / Bestselling Tabs** section, Change **Number of products** = `5` and **Number of products load more on viewport** = `0`. You can change **Default tab** to `Featured` or `Bestselling` or `New`. **Display type** can be changed to `Carousel` or `Grid`. **Show more button**, **featured products**, **bestselling products**, **new products**, **categories** can be enabled by checked box.
+You can configure special products tabs section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Special Products Tabs** selected.
+
+In **New / Featured / Bestselling Tabs** section, Change **Number of products** = `5` and **Number of products load more on viewport** = `0`. You can change **Default tab** to `Featured`, `Bestselling` or `New`. **Display type** can be changed to `Carousel` or `Grid`. **Show more button**, **featured products**, **bestselling products**, **new products**, **categories** can be enabled by checked box.
+
+**Watch the instruction video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9sfuY8RwGI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Featured products
 
@@ -436,10 +423,6 @@ You can configure special products tabs section settings in **Page Builder** > *
 You can set featured products in **Products**, click the **star** icon on the same row to set the product as featured.
 
 Go back to **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Featured Products** selected. In **Featured products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9sfuY8RwGI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### New products
 
@@ -531,12 +514,6 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CDa7Z-YijUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-#### Add custom links to the footer
-
-![edit-footer-links](img/edit-footer-links.jpg)
-
-You can add custom links to the footer using **Footer Links** widget. Drag & drop the widget to the corresponding position. Edit the links directly in Page Builder.
-
 **Watch the instruction video:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CDa7Z-YijUQ?start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -560,6 +537,7 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Top Brand](#top-brand)
 - [Double banner](#double-banner)
 - [Banner](#banner)
+- [Service icon s](#service-icons)
 - [Category banners](#category-banners)
 - [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
@@ -905,8 +883,6 @@ Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 ### Display sale badge / in-stock badge on PDP
 
-![sale-badges-pdp](img/sale-badges-pdp.jpg)
-
 Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 - Tick **Show sale badge** checkbox.
@@ -968,7 +944,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 - Dropdown: Displaying swatches in the dropdown select box.
 - Dropdown + Square: Displaying swatches in the dropdown select box in addition to regular swatches.
 
-![swatch-dropdown](img/swatch-dropdown.jpg)
+![swatch-dropdown](img/swatch-dropdown.png)
 
 
 ### Displaying Frequently Bought Together Products
@@ -978,8 +954,8 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 Enabling this feature in **Page Builder** > **Theme Styles** > **Products** > **Frequently Bought Together**, Select **Position** to display it.
 
 - **Load products from**: Specifing products to display here.
-  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `__alsobought` and value is the relevant product ID. For example:
-  ![edit-product-bought-together](img/edit-product-bought-together.png)
+  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `Wine vintage, Custom Field 1,...` and value is the relevant product ID. For example:
+  ![edit-product-bought-together](img/edit-product-bought-together.jpg)
   - `Related products`: Pulling from the related products.
   - `Similar by biews`: Pulling from customer also viewed products.
 - **Auto select all items**: Auto select or unselect all frequently bought together products.
