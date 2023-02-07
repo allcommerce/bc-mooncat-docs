@@ -54,11 +54,59 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 **Main Navigation** allows to customize this navigation bar like changing the menu type to column, dropdown menu or mega menu; changing colors of the top menu as well as the sub-menus. There is an option "**Hide webpage links**" that allows to hide the static web page links on the main navigation.
 
+To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can to change the colors text, hover, border, and background of the main navigation.
+
+![main-navigation](img/main-navigation.jpg)
+
+Config settings for main navigation:
+
+- **Root menu item color**: text color of root menu item.
+
+- **+ Hover**: text color on hover on the root menu item.
+
+- **+ Background**: background color of sub menu block.
+
+- **+ Background (Mobile)**: background color of menu on mobile device.
+
+- **Sub menu item color**: text color of the submenu item.
+
+- **+ Hover**: text color on hover on the submenu item.
+
+- **+ Background**: background color of the submenu item.
+
+- **+ Background hover**: background color on hover on the submenu item.
+
+- **+ Border**: border-color of mega menu popup.
+
+You can also configure the **Menu style**, hide or **Show web page links** and **Show widgets in the mega menu**.
+
+Config **Menu style** :
+
+- `Mega menu`: show sub-menu item megamenu popup style.
+
+![mega-menu](img/mega-menu.jpg)
+
+- `Dropdown`: show sub-menu item dropdown style.
+
+![dropdown-menu](img/dropdown-menu.jpg)
+
+- `Column`: show sub-menu item column style.
+
+![column-menu](img/column-menu.jpg)
+
+
 **Quick Search** allows to change the colors of the search form.
+
+To configure the Quick Search, click on **Theme Styles** > **Header**. In **Quick Search** section you can to change the colors text, hover, border, and background of the search form.
+
+To change popular search keywords, type your text in popular search keywords field as picture below.
+
+![header-quick-search](img/quick-search.jpg)
 
 **Watch the instruction video:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ### Products by category in mega menu
@@ -82,6 +130,7 @@ Change **Limit** = `3`.
 
 ### Top Banner
 
+
 Go back to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail. You can see the top banner appears above the header. To change the colors of the top banner, go to **Theme Styles** > **General** > **Top banners** section. Here you can change the text color and the background color.
 
 **Watch the instruction video:**
@@ -94,7 +143,11 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 ```html
 <p data-marquee>
-  15% OFF WITH CODE CBD15 + FREE SHIPPING > $99. USE IT NOW.
+  <span class="button button--primary button--small">10% Off</span>
+  <span>&nbsp;&nbsp;&nbsp;$50+ WHEN YOU BUY ONLINE & PICK UP IN - STORE&nbsp;&nbsp;&nbsp;</span>
+  <span style="color: rgba(255,255,255,0.3)">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+  <span>SAVE 35% ON YOUR FIRST&nbsp;&nbsp;&nbsp;</span>
+  <a href="/store">LEARN MORE</a>
 </p>
 ```
 
@@ -205,7 +258,7 @@ In **Theme Styles** > **General** > **Link Colors** change color you want.
 (wait for resource)
 
 
-### Kitten & Puppy
+### Kitten and Puppy
 
 Desktop
 
@@ -491,22 +544,29 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Shop Sale button](#shop-sale-button)
-- [4 Callout icons](#4-callout-icons)
-- [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
+- [Top categories](#top-categories)
+- [Product by category](#product-by-category)
+- [Kitten and Puppy](#kitten-and-puppy)
+- [Top Brand](#top-brand)
+- [Double banner](#double-banner)
+- [Banner](#banner)
 - [Service icon s](#service-icons)
 - [Category banners](#category-banners)
+- [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
-- [Customer reviews](#customer-reviews)
+- [Recently Viewed Products](#recently-viewed-products)
 - [Instagram photos](#instagram-photos)
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
 - [Footer](#footer)
+
 
 
 ### Featured in logos
@@ -560,18 +620,23 @@ In **Button** group, choose showing **Button**. Set **button style** = `Square`,
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Shop Sale button](#shop-sale-button)
-- [4 Callout icons](#4-callout-icons)
-- [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
-- [Service icons](#service-icons)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
+- [Top categories](#top-categories)
+- [Product by category](#product-by-category)
+- [Kitten and Puppy](#kitten-and-puppy)
+- [Top Brand](#top-brand)
+- [Double banner](#double-banner)
+- [Banner](#banner)
 - [Category banners](#category-banners)
+- [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
-- [Customer reviews](#customer-reviews)
+- [Recently Viewed Products](#recently-viewed-products)
 - [Instagram photos](#instagram-photos)
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
@@ -647,17 +712,23 @@ In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Butto
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Shop Sale button](#shop-sale-button)
-- [4 Callout icons](#4-callout-icons)
-- [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
+- [Top categories](#top-categories)
+- [Product by category](#product-by-category)
+- [Kitten and Puppy](#kitten-and-puppy)
+- [Top Brand](#top-brand)
+- [Double banner](#double-banner)
+- [Banner](#banner)
+- [Category banners](#category-banners)
 - [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
 - [Bestselling products](#bestselling-products)
-- [Customer reviews](#customer-reviews)
+- [Recently Viewed Products](#recently-viewed-products)
 - [Instagram photos](#instagram-photos)
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
@@ -967,14 +1038,15 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row),
 
 ![products-display-type-grid6](img/products-display-type-grid6.jpg)
 
-**Bulk Order mode:**
-
-![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
-
 **List mode:**
 
 ![products-display-type-list](img/products-display-type-list.jpg)
 
+### Display Bulk Order layout
+
+To display this bulk order layout, select **Products display type** = `Bulk order`.
+
+![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
 
 ### Displaying Shop by Brand
 
@@ -991,12 +1063,6 @@ Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row),
 
 ![shop-by-price-slider](img/shop-by-price-slider.jpg)
 
-### Display Bulk Order layout
-
-To display this bulk order layout, select **Products display type** = `Bulk order`.
-
-![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
-
 ### Infinite Products Loading
 
 This feature allows you to choose the method of loading more products in the current catalog.
@@ -1004,8 +1070,11 @@ This feature allows you to choose the method of loading more products in the cur
 ![infinite-product-loading](img/infinite-product-loading.jpg)
 
 **Infinite Products Loading**:
+
   - `On scroll`: Products will automatic loadout when scrolling down.
+
   - `Load more button`: Click on the **Load more button** to continue loading more products.
+
   - `Off`: Show **page numbers** and **arrow** button as original. Click on button to see more products.
 
 ### Display contextual search
