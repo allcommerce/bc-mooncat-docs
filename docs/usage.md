@@ -200,7 +200,7 @@ To create banner **kitten puppy**:
 
 In **Page Builder** drag & drop **Layout** to the corresponding position and change **Columns** = `1`, **Layout** name = `KITTEN PUPPY`.
 
-Select the **Column 1**, in **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want.
+Select the **Column 1**, in **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background, that you want.
 
 To create title:
 
@@ -253,7 +253,7 @@ Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set **Margin** = `0
 
 To create **Top brand**:
 
-Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload image background you want. 
+Drag & drop **Layout** widget to the corresponding position, change **Columns** = `1`, **Name** = `ROUNDED`, select the **Column 1** set **Padding** = `0 0 0 0`. In **COLUMN BACKGROUND** choose **Background** = `Image` and upload your.
 
 Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "TOP BRAND"), select custom in **Text style** field, set **Font size** = `30px`, **Text color** = `#FFFFFF`, **Padding** = `30 0 20 0`, **Padding (Mobile)** = `20 0 10 0`.
 
@@ -896,8 +896,6 @@ Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 ### Display sale badge / in-stock badge on PDP
 
-![sale-badges-pdp](img/sale-badges-pdp.jpg)
-
 Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 - Tick **Show sale badge** checkbox.
@@ -959,7 +957,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 - Dropdown: Displaying swatches in the dropdown select box.
 - Dropdown + Square: Displaying swatches in the dropdown select box in addition to regular swatches.
 
-![swatch-dropdown](img/swatch-dropdown.jpg)
+![swatch-dropdown](img/swatch-dropdown.png)
 
 
 ### Displaying Frequently Bought Together Products
@@ -969,8 +967,8 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 Enabling this feature in **Page Builder** > **Theme Styles** > **Products** > **Frequently Bought Together**, Select **Position** to display it.
 
 - **Load products from**: Specifing products to display here.
-  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `__alsobought` and value is the relevant product ID. For example:
-  ![edit-product-bought-together](img/edit-product-bought-together.png)
+  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `Wine vintage, Custom Field 1,...` and value is the relevant product ID. For example:
+  ![edit-product-bought-together](img/edit-product-bought-together.jpg)
   - `Related products`: Pulling from the related products.
   - `Similar by biews`: Pulling from customer also viewed products.
 - **Auto select all items**: Auto select or unselect all frequently bought together products.
