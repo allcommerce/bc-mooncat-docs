@@ -61,7 +61,7 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Home page carousel section
+### Top Banner
 
 Go back to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail. You can see the top banner appears above the header. To change the colors of the top banner, go to **Theme Styles** > **General** > **Top banners** section. Here you can change the text color and the background color.
 
@@ -347,37 +347,18 @@ In **Settings** of **Flex Banners | PapaThemes Beautify** > **General**, uncheck
 (wait for resource)
 
 
-### Category banners
-
-![edit-category-banners](img/edit-category-banners.jpg)
-
-Drag & drop the **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all other banners except the first one.
-
-Upload your image in **Image** field. Set **Image Width** and **height** accordingly (our suggested size: 400x450px). Change **Border radius** = `0`.
-
-In **Content** group, change **content align** to `center` & `top`. **Content pading** = `30 30 30 30`.
-
-In **Heading text** panel, Choose **Text style** = `custom`, set **Font weight** = `Semi Bold`, **Font size** = `36px`, **Font size (mobile)** = `16px`, **Text color** = **Text color hover** = `#ffffff`, **Text color (mobile)** = **Text color hover (mobile)** = `#262626`.
-
-In **General** group:
-
-- In **Width** panel, set **Width** = `%` and **Value (Desktop)** = **Value (Tablet)** = `33.33%`, **Value (Mobile)** = `50%` to display 3 banners per row on desktop & tablet and 2 banners per row on mobile. 
-- In **Padding** panel, set **Desktop** = **Tablet** = `10 10 10 10`, **Mobile** = `5 5 5 5`.
-
-Duplicate to 6 banners and upload different image for each banner.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DKxxYwLdREU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 
 ### Special products tabs
 
 ![special-products-tabs](img/special-products-tabs.jpg)
 
-You can configure special products tabs section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Special Products Tabs** selected. In **New / Featured / Bestselling Tabs** section, Change **Number of products** = `5` and **Number of products load more on viewport** = `0`. You can change **Default tab** to `Featured` or `Bestselling` or `New`. **Display type** can be changed to `Carousel` or `Grid`. **Show more button**, **featured products**, **bestselling products**, **new products**, **categories** can be enabled by checked box.
+You can configure special products tabs section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Special Products Tabs** selected.
+
+In **New / Featured / Bestselling Tabs** section, Change **Number of products** = `5` and **Number of products load more on viewport** = `0`. You can change **Default tab** to `Featured`, `Bestselling` or `New`. **Display type** can be changed to `Carousel` or `Grid`. **Show more button**, **featured products**, **bestselling products**, **new products**, **categories** can be enabled by checked box.
+
+**Watch the instruction video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9sfuY8RwGI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Featured products
 
@@ -386,10 +367,6 @@ You can configure special products tabs section settings in **Page Builder** > *
 You can set featured products in **Products**, click the **star** icon on the same row to set the product as featured.
 
 Go back to **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** field has **Featured Products** selected. In **Featured products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9sfuY8RwGI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### New products
 
@@ -481,12 +458,6 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CDa7Z-YijUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-#### Add custom links to the footer
-
-![edit-footer-links](img/edit-footer-links.jpg)
-
-You can add custom links to the footer using **Footer Links** widget. Drag & drop the widget to the corresponding position. Edit the links directly in Page Builder.
-
 **Watch the instruction video:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CDa7Z-YijUQ?start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -505,7 +476,7 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [4 Callout icons](#4-callout-icons)
 - [Ad Banner below the header displays on all pages](#ad-banner-below-the-header-displays-on-all-pages)
 - [Main carousel](#main-carousel)
-- [Service icons](#service-icons)
+- [Service icon s](#service-icons)
 - [Category banners](#category-banners)
 - [Featured products](#featured-products)
 - [New products](#new-products)
