@@ -52,9 +52,22 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 **Top Bar** section allows to change color of this top bar.
 
+**Watch the instruction video:**
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796872043?h=5d2873e4a6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-header"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+#### Quick search
+
+**Quick Search** allows user to change the colors of the search form.
+
+To configure the **Quick Search**, click on **Theme Styles** > **Header**. In **Quick Search** section you can change text colors, hover, border, and background of the search field.
+
+To change popular search keywords, type your text in **popular search keywords** field as picture below.
+
+![header-quick-search](img/quick-search.jpg)
+#### Main Navigation
+
 **Main Navigation** allows to customize this navigation bar like changing the menu type to column, dropdown menu or mega menu; changing colors of the top menu as well as the sub-menus. There is an option "**Hide webpage links**" that allows to hide the static web page links on the main navigation.
-
-
 
 To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can change:
 
@@ -92,24 +105,13 @@ To config style of main navigation, click on **Theme Styles** > **Header**. In *
 
 ![column-menu](img/column-menu.jpg)
 
-
-**Quick Search** allows user to change the colors of the search form.
-
-To configure the **Quick Search**, click on **Theme Styles** > **Header**. In **Quick Search** section you can change text colors, hover, border, and background of the search field.
-
-To change popular search keywords, type your text in **popular search keywords** field as picture below.
-
-![header-quick-search](img/quick-search.jpg)
-
 You can also hide or **Show web page links** and **Show widgets in the mega menu**.
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796851987?h=a75fba7b62&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-main navigation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-
-
-### Products by category in mega menu
+#### Products by category in mega menu
 
 ![products-by-category-mega-menu](img/products-by-category-in-mega-menu.png)
 
@@ -119,14 +121,13 @@ Drag and drop **Layout** widget to the corresponding position, change **Column**
 
 Drag and drop **Section Heading | PapaThemes Beautify** widget into **Column 1**. Typing your text (example "Feature Box Items"), set **Padding** = `10 0 10 0`, **Padding (Mobile)** = `10 0 10 0`.
 
-Drag and drop **Products Feed | PapaThemes Beautify** widget into **Column 1** below **Section Heading** widget. In **Products** enter the page URL to fetch products (example `/bird/`). Checked **Render with template** and enter your template file in 'components/' directory (example `beautify/products-feed/list`).
+Drag and drop **Products Feed | PapaThemes Beautify** widget into **Column 1** below **Section Heading** widget. In **Products** enter URL of the category to fetch products (example `/bird/`). Checked **Render with template** and enter your template file: `beautify/products-feed/list`.
 
 Change **Limit** = `3`.
 
 **Watch the instruction video:**
 
-(wait for resource)
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796864334?h=12fed2f800&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="products-feed-guide-full"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Top Banner
 
@@ -135,7 +136,7 @@ Go back to **Storefront** > **My Themes** > click **Customize** button beside th
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AWPZNKszf6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795121977?h=6bd7a34407&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-top banner"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Ad Banner displays on all pages
 
@@ -155,7 +156,7 @@ The code allows to animate the text sliding from left to right on smaller screen
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gG1WesJPkkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796851998?h=9896b97f44&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-header banner"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Main carousel
 
@@ -167,9 +168,9 @@ Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Ca
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HT44vYYQbnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796542010?h=3030ce28cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-home carousel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-### Popular Brand logos
+#### Popular Brand logos
 
 
 ![Top-column-carousel](img/brands-top-carousel.jpg)
@@ -188,9 +189,9 @@ Click on `...` at the right of widget name and select **Setting** > **Carousel**
 
 **Watch the instruction video:**
 
-(wait for resource)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796842307?h=85ac457107&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-Popular brand in home carousel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-### Right banner in homepage carousel
+#### Right banner in homepage carousel
 ![Main-carousel-right-banner](img/right-banner-main-carousel.jpg)
 
 To display right banner in Main carousel.
@@ -201,11 +202,13 @@ Drag and drop layout widget from page builder to corresponding position in **rig
 
 drag & drop **Flex Banners | PapaThemes Chiara** widget to layout. Delete all banner **except banner 1**. In Banner click on **Image** and upload your image. Change image **width** = `415px` and **height** = `357px`. Change **border radius** to `30px`. In General section, set all padding value t `0` for all device.
 
-Select **layout** and click on duplicate layout. Select banner on new layout and change banner image to your image.
+Duplicate **Flex Banners | PapaThemes Chiara** widget. Select second banner change your **image** and **overlay image**.
+
+Noted: Total the height of two banner minus `24px` should equal height of main carousel banner.
 
 **Watch the instruction video:**
 
-(wait for resource)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796915564?h=fc5cc022ba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-right banner"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Top categories
 
@@ -230,7 +233,7 @@ To setup heading, drag and drop **section heading | PapaThemes Beautify** and ty
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h4zW6W1KvNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796510179?h=f3fd45871a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-top category"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ### Product by category
@@ -267,7 +270,7 @@ In **Theme Styles** > **General** > **Link Colors** change color you want.
 
 **Watch the instruction video:**
 
-(wait for resource)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796201915?h=ae876c0213&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-Product category banner"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ### Kitten and Puppy
@@ -328,8 +331,7 @@ Select the **Column 1** inside the **Layout (KITTEN PUPPY)** set **Margin** = `0
 
 **Watch the instruction video:**
 
-(wait for resource)
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796178146?h=8605ce1a91&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-Puppy"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Top Brand
 
@@ -359,7 +361,7 @@ In **Carousel**, show **Enable carousel**, in **Carousel settings** panel set va
 
 **Watch the instruction video:**
 
-(wait for resource)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796197736?h=6915ba753b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-Top Brand"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Double banner
 
@@ -399,7 +401,7 @@ In **Settings** of **Flex Banners | PapaThemes Beautify** > **General** unchecke
 
 **Watch the instruction video:**
 
-(wait for resource)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795518866?h=f6214aafb5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-double"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ### Banner
@@ -430,8 +432,7 @@ In **Settings** of **Flex Banners | PapaThemes Beautify** > **General**, uncheck
 
 **Watch the instruction video:**
 
-(wait for resource)
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795508011?h=5c2f4c22f2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-banner"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ### Special products tabs
@@ -444,7 +445,7 @@ In **New / Featured / Bestselling Tabs** section, Change **Number of products** 
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9sfuY8RwGI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795129596?h=e42a4dcec2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-special product tabs"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Featured products
 
@@ -499,7 +500,7 @@ To create the title, drag & drop the **Section Heading** widget to above the Ins
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H_JSLYDae1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795504772?h=06cb1784a7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-instagram"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ### Recent blog posts
@@ -512,8 +513,7 @@ To display the recent blog posts on the home page, go to Page Builder. In Theme 
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QP6y5tXJyko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795495559?h=4b4939afd5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-blog"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Newsletter
 
@@ -526,7 +526,7 @@ Make sure **Show newsletter form** is selected. You can change the **Heading**, 
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gdclE36uP_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795101779?h=5c3393ce06&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-newsletter"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ### Footer
@@ -541,12 +541,7 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 
 **Watch the instruction video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CDa7Z-YijUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CDa7Z-YijUQ?start=29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795439897?h=4ef5896555&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-footer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 ## Setting Up CBD Style Home Page
@@ -1139,7 +1134,7 @@ In **Storefront** > **Marketing Banner**, click **Create a Banner** button.
 
 Watch the instruction video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9Rasj8d5TtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796915050?h=fa4bc20f8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-Brand description"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 
