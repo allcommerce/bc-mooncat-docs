@@ -46,7 +46,7 @@ To start customizing the theme, login to your admin panel, go to **Storefront** 
 ![Header](img/header.jpg)
 
 
-To configure the header, click on **Theme Styles** > **Header** section, here you can configure the header colors, store logo position and size.
+To configure the header, click on **Theme Styles** > **Header** section, here you can config the header colors, store logo position and size.
 
 **User Navigation** allows to change colors of the icon phone, cart.
 
@@ -54,11 +54,9 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 **Main Navigation** allows to customize this navigation bar like changing the menu type to column, dropdown menu or mega menu; changing colors of the top menu as well as the sub-menus. There is an option "**Hide webpage links**" that allows to hide the static web page links on the main navigation.
 
-To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can to change the colors text, hover, border, and background of the main navigation.
 
-![main-navigation](img/main-navigation.jpg)
 
-Config settings for main navigation:
+To configure the Main navigation, click on **Theme Styles** > **Header**. In **Main navigation** section you can change:
 
 - **Root menu item color**: text color of root menu item.
 
@@ -78,37 +76,36 @@ Config settings for main navigation:
 
 - **+ Border**: border-color of mega menu popup.
 
-You can also configure the **Menu style**, hide or **Show web page links** and **Show widgets in the mega menu**.
+![main-navigation](img/main-navigation.jpg)
 
-Config **Menu style** :
+To config style of main navigation, click on **Theme Styles** > **Header**. In **Main navigation** select **Menu style**. The theme offer 3 option as below:
 
-- `Mega menu`: show sub-menu item megamenu popup style.
+- `Mega menu`: show submenu under Mega menu style. **Mega menu** allow user insert banner and product into it
 
 ![mega-menu](img/mega-menu.jpg)
 
-- `Dropdown`: show sub-menu item dropdown style.
+- `Dropdown`: show sub-menu item as dropdown style.
 
 ![dropdown-menu](img/dropdown-menu.jpg)
 
-- `Column`: show sub-menu item column style.
+- `Column`: show sub-menu item as column style.
 
 ![column-menu](img/column-menu.jpg)
 
 
-**Quick Search** allows to change the colors of the search form.
+**Quick Search** allows user to change the colors of the search form.
 
-To configure the Quick Search, click on **Theme Styles** > **Header**. In **Quick Search** section you can to change the colors text, hover, border, and background of the search form.
+To configure the **Quick Search**, click on **Theme Styles** > **Header**. In **Quick Search** section you can change text colors, hover, border, and background of the search field.
 
-To change popular search keywords, type your text in popular search keywords field as picture below.
+To change popular search keywords, type your text in **popular search keywords** field as picture below.
 
 ![header-quick-search](img/quick-search.jpg)
+
+You can also hide or **Show web page links** and **Show widgets in the mega menu**.
 
 **Watch the instruction video:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H-c-oUQycgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Home page carousel section
 
 ### Top Banner
 
@@ -151,27 +148,39 @@ Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Ca
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HT44vYYQbnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Brand logos
+### Popular Brand logos
 
 
 ![Top-column-carousel](img/brands-top-carousel.jpg)
 
-To make brands carousel:
+To create popular brands in home page carousel:
 
-**Step 1** click on **Theme Styles** > **Home Page** > **Carousel** find **show top column** and enable it to open widget region.
+click on **Theme Styles** > **Home Page** > **Carousel** find **show top column** and enable it to open widget region.
 
-**Step 2** drag & drop **Flex Banners | PapaThemes Beautify** widget to widget region from **step 1**.
+Drag and drop **layout widget** from page builder to corresponding position in **top column**. Change **column** to 1. Set **margin left and right** = `0`. Select column 1 and change **padding left, right** = `0`
 
-**Step 3** click `...` at the right of **Flex Banners | PapaThemes Beautify** and select **Setting** > **Carousel** > **Enable carousel**.
+drag & drop **Flex Banners | PapaThemes Beautify** widget to layout. Delete all banner **except banner 1**. In Banner click on **Image** and upload your image. Change image **width** = `210px` and **height** = `140px` (recommend). Change **border radius** to `20px`. In General section, click on padding change left, right value to `12` for desktop and table and `5` for mobile device.
+
+Duplicate banner 1 to quantity that you want and update your image for each banner.
+
+Click on `...` at the right of widget name and select **Setting** > **Carousel** > **Enable carousel**. click on pen icons to open carousel setting change items per slide for **desktop** = `8`, tablet = `4` and mobile = `2`.
 
 **Watch the instruction video:**
 
 (wait for resource)
 
-### Main carousel right banner
+### Right banner in homepage carousel
 ![Main-carousel-right-banner](img/right-banner-main-carousel.jpg)
 
-To display right banner in Main carousel, click on **Theme Styles** > **Home Page** > **Carousel** find **show right column** enable this option. Drag & drop **Flex Banners | PapaThemes Chiara** widget to to the corresponding position.
+To display right banner in Main carousel.
+
+click on Theme Styles > Home Page > Carousel find show **right column** and enable it to open widget region.
+
+Drag and drop layout widget from page builder to corresponding position in **right column**. Change column to 1. Set margin left and right = 0. Select column 1 and change padding left, right = 0.
+
+drag & drop **Flex Banners | PapaThemes Chiara** widget to layout. Delete all banner **except banner 1**. In Banner click on **Image** and upload your image. Change image **width** = `415px` and **height** = `357px`. Change **border radius** to `30px`. In General section, set all padding value t `0` for all device.
+
+Select **layout** and click on duplicate layout. Select banner on new layout and change banner image to your image.
 
 **Watch the instruction video:**
 
