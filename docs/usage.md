@@ -575,37 +575,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Footer](#footer)
 
 
-
-### Featured in logos
-
-![edit-cbd-featured-in-logos](img/edit-cbd-featured-in-logos.jpg)
-
-In Page Builder, drag & drop **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all items except the first one. 
-
-Edit the first banner, upload your image in **Image** field. Enter **Image width** and **Image height** accordingly. Set Border radius = 0.
-
-In **Content** group, Click the eye icon next to **Heading text** to hide it.
-
-In **General** group:
-
-- Click the pencil icon next to Width to open the Width configuration panel. Set **Width** = `%`, **Value (Desktop)** = `20%`, **Value (Tablet)** = **Value (Mobile)** = `33.33%` to display 5 images per row on desktop and 3 images per row on mobile & tablet.
-- Click the pencil icon next to **Padding** to open the Padding configuration panel. Set **Desktop** = `20 0 20 0`, **Tablet** = **Mobile** = `10 0 10 0`.
-
-Duplicate to 10 items and change different image for each item.
-
-To display the title, drag & drop the **Section Heading** widget to above the images. Set **Padding** = `60 0 20 0` and **Padding (Mobile)** = `30 0 15 0` and edit the content directly in Page Builder.
-
-Drag & drop the **Spacer | PapaThemes Beautify** widget to below the images and set **Desktop** = `30px`, **Tablet** = `10px`, **Mobile** = `10px`.
-
-Drag & drop the **Button** widget to below the spacer, Set **Padding** = `8 24 8 24`. Enter **Button link** as you want. In **Text** group, set **Font size** = `16px`, **Text color** = **Text color (hover)** = `#ffffff`. In **Style** group, change **Button color** = **Border color** = #1f439e, **Button color (hover)** = **Border color (hover)** = `#0f0f2d`, **Border thickness** = `0`.
-
-Drag & drop the **Spacer | PapaThemes Beautify** widget to below the button and set **Desktop** = `60px`, **Tablet** = `40px`, **Mobile** = `20px`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cQ6XVLFIRv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ### FAQ sections
 
 ![edit-cbd-faqs-section](img/edit-cbd-faqs-section.jpg)
