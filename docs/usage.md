@@ -882,9 +882,38 @@ Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 - Tick **Show sale badge** checkbox.
 - Tick **Show in-stock badge** checkbox.
 
-### Displaying product image thumbnails vertically or horizontally
+### Displaying Image gallery 
 
-**Page Builder** > **Theme Styles** > **Products** > **Product Page**, tick **Show image thumbnails vertically** to display product thumbnails vertically, otherwise it's displayed horizontally.
+#### Image Gallery Position
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, In **Image gallery position** , select `Left` or `Right` to change Image gallery position .
+
+- `Right`
+
+![pdp-right](img/pdp-right.jpg)
+
+
+
+#### Displaying sub-image as a slider
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, **Enable thumbnail carousel** section, you can change display thumbnail images to slider or grid.
+
+- `1 row`: Sub-images are displayed in the slider on 1 row.
+
+- `2 rows`: Sub-images are displayed in the slider on 2 row.
+
+- `Hide`: All sub-images are displayed as grid.
+
+![thumbnail-2](img/thumbnail-2.jpg)
+
+
+#### Displaying product image thumbnails vertically
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, checked **Show image thumbnails vertically** to display product thumbnails vertically, otherwise it's displayed horizontally.
+
+Checked **Show image thumbnails vertically**:
+
+![thumbnails-vertically](img/thumbnail-vertical.jpg)
 
 ### Displaying product bulk pricing inline in table
 
