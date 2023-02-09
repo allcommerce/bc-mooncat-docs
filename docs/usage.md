@@ -1040,13 +1040,13 @@ In **Storefront** > **Web Pages**, click on the **Create a Web Page** button to 
 
 In **Web Page Details**, enter your page name in **Page Name** field, **Page URL** will be automatically generated. In **Page content** field enter your content.
 
-In **Navigation Menu Options**, uncheck **Navigation Menu** options.
+Uncheck **Navigation Menu** options.
 
 In **Advanced Options** set **Sort Order** = `2`.
 
 To display the additional information link in the product detail page:
 
-In **Products**, select the product you want to display the link. Find **Custom Fields**, created new custom field. Set **Custom Fields Name** = `__guide_popup`, set **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Nutrients & Directions|/nutrients-directions/`) then save.
+In **Products**, select the product you want to display the link. Find **Custom Fields**, created new custom field. Set **Custom Fields Name** = `__guide_popup` and **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Nutrients & Directions|/nutrients-directions/`) then save.
 
 **Watch the instruction video:**
 
