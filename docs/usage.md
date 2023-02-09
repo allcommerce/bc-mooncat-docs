@@ -987,6 +987,13 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 - Image in gallery view: Specifying product card image size.
 
 
+### Brand logo in product detail
+
+![brand logo in product detail](img/brand-logo.jpg)
+
+To display **Brand logo** in product detail, in **Page Builder** > **Products** > **Product Page** find and check **Show brand image** option.
+
+
 ### Ask question
 
 In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Ask question (contact page URL)** and enter `/contact-us/` to display **Ask Questions?**.
