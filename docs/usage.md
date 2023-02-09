@@ -996,22 +996,30 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **
 
 ### Nutrients & Directions
 
-In **Page Builder** > **Channel Manager** click on the **Web pages** link, find **Nutrients & Directions** and click to customize product instructions information.
+![Nutrients & Directions result](img/nutrients-directions-link.jpg)
 
-![Nutrients & Directions](img/nutrients-directions.jpg)
+To create additional information link:
 
-To adjust display for each product:
+In **Storefront** select **Web Pages**. In **View Web Pages** click on the **Create a Web Page** button.
 
-In **Page Builder** > **Products**, select the product you need to edit. In **Custom Fields** change **Custom Field Value** as you like and save.
+In **Web Page Details** enter Page Name = `Nutrients & Directions`, **Page URL** will automatically generated, enter your content.
 
-Example:
+In **Navigation Menu Options**, uncheck the **Navigation Menu** checkbox.
 
-![Nutrients & Directions customize](img/nutrients-directions-customize.jpg)
+In **Advanced Options** set **Sort Order** = `2`.
+
+To display the additional information link in the product detail page:
+
+In **Products**, select the product you want to display the link. In **Custom Fields**, set **Custom Fields Name** = `__guide_popup`, set **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Nutrients & Directions|/nutrients-directions/`) then save.
+
+**Watch the instruction video:**
+
+(wait a resource)
 
 
 ### Video image product detail page
 
-In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select option to change to display video image product detail page.
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select tab or image gallery to change to display video image product detail page.
 
 Video image product detail page tab option:
 
@@ -1020,6 +1028,7 @@ Video image product detail page tab option:
 Video image product detail page image gallery option:
 
 ![video image product detail image gallery option](img/video-image-PDP-image-gallery.png)
+
 
 ## Customizing Category Pages
 
