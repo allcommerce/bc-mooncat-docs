@@ -987,6 +987,28 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 - Image in gallery view: Specifying product card image size.
 
 
+### AJAX ask question
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Ask question (contact page URL)** and enter `/contact-us/` to display **Ask Questions?**.
+
+![ask question](img/ask-question.jpg)
+
+
+### Nutrients & Directions
+
+In **Page Builder** > **Channel Manager** click on the **Web pages** link, find **Nutrients & Directions** and click to customize product instructions information.
+
+![Nutrients & Directions](img/nutrients-directions.jpg)
+
+To adjust display for each product:
+
+In **Page Builder** > **Products**, select the product you need to edit. In **Custom Fields** change **Custom Field Value** as you like and save.
+
+Example:
+
+![Nutrients & Directions customize](img/nutrients-directions-customize.jpg)
+
+
 ## Customizing Category Pages
 
 Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
