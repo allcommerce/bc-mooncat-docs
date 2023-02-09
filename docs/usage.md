@@ -987,7 +987,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 - Image in gallery view: Specifying product card image size.
 
 
-### AJAX ask question
+### Ask question
 
 In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Ask question (contact page URL)** and enter `/contact-us/` to display **Ask Questions?**.
 
@@ -1000,17 +1000,17 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **
 
 To create additional information link:
 
-In **Storefront** select **Web Pages**. In **View Web Pages** click on the **Create a Web Page** button.
+In **Storefront** > **Web Pages**, click on the **Create a Web Page** button to create new webpage.
 
-In **Web Page Details** enter Page Name = `Nutrients & Directions`, **Page URL** will automatically generated, enter your content.
+In **Web Page Details**, enter your page name in **Page Name** field, **Page URL** will be automatically generated. In **Page content** field enter your content.
 
-In **Navigation Menu Options**, uncheck the **Navigation Menu** checkbox.
+In **Navigation Menu Options**, uncheck **Navigation Menu** options.
 
 In **Advanced Options** set **Sort Order** = `2`.
 
 To display the additional information link in the product detail page:
 
-In **Products**, select the product you want to display the link. In **Custom Fields**, set **Custom Fields Name** = `__guide_popup`, set **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Nutrients & Directions|/nutrients-directions/`) then save.
+In **Products**, select the product you want to display the link. Find **Custom Fields**, created new custom field. Set **Custom Fields Name** = `__guide_popup`, set **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Nutrients & Directions|/nutrients-directions/`) then save.
 
 **Watch the instruction video:**
 
@@ -1019,13 +1019,13 @@ In **Products**, select the product you want to display the link. In **Custom Fi
 
 ### Video image product detail page
 
-In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select tab or image gallery to change to display video image product detail page.
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select `tab` or `image gallery` to change display video position.
 
-Video image product detail page tab option:
+Videos displayed in **tab** options:
 
 ![video image product detail tab option](img/video-image-PDP-tab.png)
 
-Video image product detail page image gallery option:
+Videos displayed in **image gallery** option:
 
 ![video image product detail image gallery option](img/video-image-PDP-image-gallery.png)
 
