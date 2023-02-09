@@ -1015,6 +1015,13 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 - Zoomed image: Specifying the zoomed image size.
 - Image in gallery view: Specifying product card image size.
 
+### Shipping countdown
+
+![shipping-countdown](img\Shipping-countdown.jpg)
+
+To enable shipping countdown, **Theme styles** > **Product page**  find **shipping countdown** field and input your cut off time. Find and copied your timezone from wikipedia `https://en.wikipedia.org/wiki/List_of_tz_database_time_zones` to **timezone** field.
+
+Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
 
 ### Brand logo in product detail
 
@@ -1064,7 +1071,6 @@ Videos displayed in **tab** options:
 Videos displayed in **image gallery** option:
 
 ![video image product detail image gallery option](img/video-image-PDP-image-gallery.png)
-
 
 ## Customizing Category Pages
 
