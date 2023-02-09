@@ -1009,6 +1009,18 @@ Example:
 ![Nutrients & Directions customize](img/nutrients-directions-customize.jpg)
 
 
+### Video image product detail page
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select option to change to display video image product detail page.
+
+Video image product detail page tab option:
+
+![video image product detail tab option](img/video-image-PDP-tab.png)
+
+Video image product detail page image gallery option:
+
+![video image product detail image gallery option](img/video-image-PDP-image-gallery.png)
+
 ## Customizing Category Pages
 
 Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
