@@ -882,9 +882,38 @@ Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 - Tick **Show sale badge** checkbox.
 - Tick **Show in-stock badge** checkbox.
 
-### Displaying product image thumbnails vertically or horizontally
+### Displaying Image gallery 
 
-**Page Builder** > **Theme Styles** > **Products** > **Product Page**, tick **Show image thumbnails vertically** to display product thumbnails vertically, otherwise it's displayed horizontally.
+#### Image Gallery Position
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, In **Image gallery position** , select `Left` or `Right` to change Image gallery position .
+
+- `Right`
+
+![pdp-right](img/pdp-right.jpg)
+
+
+
+#### Displaying sub-image as a slider
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, **Enable thumbnail carousel** section, you can change display thumbnail images to slider or grid.
+
+- `1 row`: Sub-images are displayed in the slider on 1 row.
+
+- `2 rows`: Sub-images are displayed in the slider on 2 row.
+
+- `Hide`: All sub-images are displayed as grid.
+
+![thumbnail-2](img/thumbnail-2.jpg)
+
+
+#### Displaying product image thumbnails vertically
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, checked **Show image thumbnails vertically** to display product thumbnails vertically, otherwise it's displayed horizontally.
+
+Checked **Show image thumbnails vertically**:
+
+![thumbnails-vertically](img/thumbnail-vertical.jpg)
 
 ### Displaying product bulk pricing inline in table
 
@@ -993,6 +1022,56 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 To enable shipping countdown, **Theme styles** > **Product page**  find **shipping countdown** field and input your cut off time. Find and copied your timezone from wikipedia `https://en.wikipedia.org/wiki/List_of_tz_database_time_zones` to **timezone** field.
 
 Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
+
+### Brand logo in product detail
+
+![brand logo in product detail](img/brand-logo.jpg)
+
+To display **Brand logo** in product detail, in **Page Builder** > **Products** > **Product Page** find and check **Show brand image** option.
+
+
+### Ask question
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Ask question (contact page URL)** and enter `/contact-us/` to display **Ask Questions?**.
+
+![ask question](img/ask-question.jpg)
+
+
+### Nutrients & Directions
+
+![Nutrients & Directions result](img/nutrients-directions-link.jpg)
+
+To create additional information link:
+
+In **Storefront** > **Web Pages**, click on the **Create a Web Page** button to create new webpage.
+
+In **Web Page Details**, enter your page name in **Page Name** field, **Page URL** will be automatically generated. In **Page content** field enter your content.
+
+Uncheck **Navigation Menu** options.
+
+In **Advanced Options** set **Sort Order** = `2`.
+
+To display the additional information link in the product detail page:
+
+In **Products**, select the product you want to display the link. Find **Custom Fields**, created new custom field. Set **Custom Fields Name** = `__guide_popup` and **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Nutrients & Directions|/nutrients-directions/`) then save.
+
+**Watch the instruction video:**
+
+(wait a resource)
+
+
+### Video image product detail page
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select `tab` or `image gallery` to change display video position.
+
+Videos displayed in **tab** options:
+
+![video image product detail tab option](img/video-image-PDP-tab.png)
+
+Videos displayed in **image gallery** option:
+
+![video image product detail image gallery option](img/video-image-PDP-image-gallery.png)
+
 ## Customizing Category Pages
 
 Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
