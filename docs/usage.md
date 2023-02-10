@@ -1027,7 +1027,7 @@ Note: The time before cut off the message will show **shipping today** after cut
 
 ![Flash-sales](img\flash-sales.jpg)
 
-To create flash sales for each items, in **product** select the product that you want to add flash sale bar. 
+To create flash sales bar for each product, in **product** select the product that you want to add flash sale bar. 
 
 Find customer fields, click on add **Add Custom Field**. Copy `__countdown_label` and paste into **Custom Field Name:**. in **Custom Field Value:**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
 
