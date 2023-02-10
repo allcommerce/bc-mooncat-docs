@@ -1023,6 +1023,23 @@ To enable shipping countdown, **Theme styles** > **Product page**  find **shippi
 
 Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
 
+### Flash sales
+
+![Flash-sales](img\flash-sales.jpg)
+
+To create flash sales for each items, in **product** select the product that you want to add flash sale bar. 
+
+Find customer fields, click on add **Add Custom Field**. Copy `__countdown_label` and paste into **Custom Field Name:**. in **Custom Field Value:**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
+
+Create another custom field, Copy `__countdown_date` and paste into **Custom Field Name:**. in **Custom Field Value:**, enter your cut off time following the format: `<yyyy>-<mm>-<dd> <hh>:<mm>:<ss><timezone>` (example: 2023-03-15 17:00:00-7).
+
+Note:
+
+- `<yyyy>-<mm>-<dd>` is optional. If the date is not entered, the banner will repeat automatically right after pass cut off time.
+  
+- `<hh>:<mm>:<ss>` is 24 hour format.
+  
+- `<timezone>` only input `+ or -` and `number` example: `+7`. if timezone are not entered, the countdown time will be different in different countries.
 ### Brand logo in product detail
 
 ![brand logo in product detail](img/brand-logo.jpg)
