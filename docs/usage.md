@@ -589,6 +589,12 @@ In **Button** group, choose showing **Button**. Set **button style** = `Square`,
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SMpiKYIkrIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Left-sidebar layout
+
+To display category on left sidebar, in **page builder** > **Theme styles** > **General**. Find **option layout**, select **left-sidebar**.
+
+![left-sidebar](img/left-sidebar.jpg)
+
 ## Setting Up Yoga Style Home Page
 
 ### General
