@@ -580,7 +580,7 @@ To display category on left sidebar, in **page builder** > **Theme styles** > **
 
 ![left-sidebar](img/left-sidebar.jpg)
 
-## Setting Up Yoga Style Home Page
+## Setting Up Book Style Home Page
 
 ### General
 
@@ -609,68 +609,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Newsletter](#newsletter)
 - [Footer](#footer)
 
-### Our brand logos
-
-Please refer [Featured in logos setup instructions](#featured-in-logos) of **CBD Style**.
-
-### Featured category banners
-
-![edit-yoga-category-banners](img/edit-yoga-category-banners.jpg)
-
-In Page Builder, drag & drop **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all items except the first one.
-
-Edit the first banner, upload image in **Image** field and set **Image width**, **Image height** accordingly (our recommended size 400x600px). Change **Border radius** = `0`. Optionally enter the banner link in **Link** field.
-
-In **Content** group:
-
-- Set **Content align** = `center` & `bottom`.
-- Click the pencil icon next to **Heading** text, set **Text style** = `custom`, **Font weight** = `bold`, **Font size** = `36px`, **Font size (Mobile)** = `16px`, **Text color** = **Text color hover** = `#ffffff`, **Text color (Mobile)** = **Text color hover (Mobile)** = `#262626`.
-
-In **General** group:
-
-- Click the pencil icon next to **Width** to open Width configuration panel. Set **Width** = `%`, **Value (Desktop)** = `20%`, **Value (Tablet)** = **Value (Mobile)** = `33.33%` to display 5 banners per row on mobile and 3 banners per row on mobile and tablet.
-- Click the pencil icon next to **Padding** to open Padding configuration panel. Set **Desktop** = `0 10 0 10`, **Tablet** = `0 5 10 5`, **Mobile** = `0 5 15 0`.
-- Unselect **Display banners in contain div** to display the banners full width.
-
-Duplicate to 5 banners and change the image for each banner as you want.
-
-To display the title, drag & drop Section **Heading widget** to above the banners. Edit the text directly in Page Builder.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4DVaHsSvTag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Temperature Up banner
-
-![edit-yoga-temperature-up-banner](img/edit-yoga-temperature-up-banner.jpg)
-
-In Page Builder, drag & drop **Leaderboard Banner** widget to the corresponding position. Upload image in **Image** field and set **Banner height** = **Banner height (Mobile)** = `300px`. Optionally input **Banner link**.
-
-In **Heading** group, **Show heading** = `on`, set **Heading style** = `Custom`, **Font size** = `48px`.
-
-In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Button radius** = `0`, **Button color** = `#262626`, **Button color hover** = `#9597b4`, **Button text color** = **Button text color hover** = `#ffffff`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hD57F-3ENUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Luxury yoga banner
-
-![edit-yoga-luxury-banner](img/edit-yoga-luxury-banner.jpg)
-
-In Page Builder, drag & drop **Leaderboard Banner** widget to the corresponding position. Upload image in **Image** field and set **Banner height** = `550px`, **Banner height (Mobile)** = `400px`. Optionally input **Banner link**.
-
-Deselect **Display in container div** to display the banner full width.
-
-In **Heading** group, **Show heading** = `on`, set **Heading style** = `Custom`, **Font size** = `48px`, Heading color = Heading color (mobile) = #ffffff.
-
-In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Button radius** = `0`, **Button color** = `#ffffff`, **Button color hover** = `#9597b4`, **Button text color** = `#262626`, **Button text color hover** = `#ffffff`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/msOlPO5qWNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Setting Up Heath-care Style Home Page
 
