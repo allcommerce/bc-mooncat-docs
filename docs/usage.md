@@ -580,7 +580,7 @@ To display category on left sidebar, in **page builder** > **Theme styles** > **
 
 ![left-sidebar](img/left-sidebar.jpg)
 
-## Setting Up Yoga Style Home Page
+## Setting Up Book Style Home Page
 
 ### General
 
@@ -609,68 +609,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Newsletter](#newsletter)
 - [Footer](#footer)
 
-### Our brand logos
-
-Please refer [Featured in logos setup instructions](#featured-in-logos) of **CBD Style**.
-
-### Featured category banners
-
-![edit-yoga-category-banners](img/edit-yoga-category-banners.jpg)
-
-In Page Builder, drag & drop **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all items except the first one.
-
-Edit the first banner, upload image in **Image** field and set **Image width**, **Image height** accordingly (our recommended size 400x600px). Change **Border radius** = `0`. Optionally enter the banner link in **Link** field.
-
-In **Content** group:
-
-- Set **Content align** = `center` & `bottom`.
-- Click the pencil icon next to **Heading** text, set **Text style** = `custom`, **Font weight** = `bold`, **Font size** = `36px`, **Font size (Mobile)** = `16px`, **Text color** = **Text color hover** = `#ffffff`, **Text color (Mobile)** = **Text color hover (Mobile)** = `#262626`.
-
-In **General** group:
-
-- Click the pencil icon next to **Width** to open Width configuration panel. Set **Width** = `%`, **Value (Desktop)** = `20%`, **Value (Tablet)** = **Value (Mobile)** = `33.33%` to display 5 banners per row on mobile and 3 banners per row on mobile and tablet.
-- Click the pencil icon next to **Padding** to open Padding configuration panel. Set **Desktop** = `0 10 0 10`, **Tablet** = `0 5 10 5`, **Mobile** = `0 5 15 0`.
-- Unselect **Display banners in contain div** to display the banners full width.
-
-Duplicate to 5 banners and change the image for each banner as you want.
-
-To display the title, drag & drop Section **Heading widget** to above the banners. Edit the text directly in Page Builder.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4DVaHsSvTag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Temperature Up banner
-
-![edit-yoga-temperature-up-banner](img/edit-yoga-temperature-up-banner.jpg)
-
-In Page Builder, drag & drop **Leaderboard Banner** widget to the corresponding position. Upload image in **Image** field and set **Banner height** = **Banner height (Mobile)** = `300px`. Optionally input **Banner link**.
-
-In **Heading** group, **Show heading** = `on`, set **Heading style** = `Custom`, **Font size** = `48px`.
-
-In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Button radius** = `0`, **Button color** = `#262626`, **Button color hover** = `#9597b4`, **Button text color** = **Button text color hover** = `#ffffff`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hD57F-3ENUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Luxury yoga banner
-
-![edit-yoga-luxury-banner](img/edit-yoga-luxury-banner.jpg)
-
-In Page Builder, drag & drop **Leaderboard Banner** widget to the corresponding position. Upload image in **Image** field and set **Banner height** = `550px`, **Banner height (Mobile)** = `400px`. Optionally input **Banner link**.
-
-Deselect **Display in container div** to display the banner full width.
-
-In **Heading** group, **Show heading** = `on`, set **Heading style** = `Custom`, **Font size** = `48px`, Heading color = Heading color (mobile) = #ffffff.
-
-In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Button radius** = `0`, **Button color** = `#ffffff`, **Button color hover** = `#9597b4`, **Button text color** = `#262626`, **Button text color hover** = `#ffffff`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/msOlPO5qWNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Setting Up Heath-care Style Home Page
 
@@ -701,90 +639,36 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Newsletter](#newsletter)
 - [Footer](#footer)
 
-### Shop For icons
 
-Please refer [Service icons setup instruction](#service-icons) in Pets Style Home Page.
+### Three Banners
 
-### Our Brand logos
+Desktop
 
-![edit-sports-brand-logos](img/edit-sports-brand-logos.jpg)
+![three banners](img/three-banners.jpg)
 
-In Page Builder, drag & drop **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all items except the first one.
+To create **Three Banners**:
 
-- Edit the first banner, upload your logo image in **Image** field. Set **Image width**, **Image height** accordingly (our recommended size 160x90px). Change **Border radius** = `0`.
-- In **Content** group, Set **Heading text** = `off`.
-- In **General** group:
-  - Click the pencil icon next to **Width** to open Width configuration panel. Set **Width** = `%`, **Value (Desktop)** = `16.66%`, **Value (Tablet)** = **Value (Mobile)** = `33.33%` to display 6 images per row on desktop and 3 images per row on tablet and mobile.
-  - Click the pencil icon next to **Padding** to open Padding configuration panel. Set **Desktop** = **Tablet** = `0 10 0 10`, **Mobile** = `5 5 5 5`.
+In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`. Drag and drop **Flex Banners | PapaThemes Beautify** widget into **Column 1** and duplicate **Banner 1** to 3 banners.
 
-- Duplicate the banner to 6 and upload different image for each banner as you want.
+To edit **Banner 1**, change your image, set **Image width** = `790px`, **Image height** = `435px`. Show different image on mobile and upload your image, set **Image width (Mobile)** = `388px`, **Image height (Mobile)** = `230px`, **Border radius** = `30px`.
 
-To display the title, drag & drop the **Section Heading** widget to above the logo images. Set **Padding** = `60 0 40 0`, **Padding (Mobile)** = `40 0 30 0` and edit the title text directly in Page Builder.
+In **Content**, hide **Heading text** if your image already has text.
 
-Drag & drop a **Spacer | PapaThemes Beautify** widget to below the logo images and set **Desktop** = `30px`, **Tablet** = `30px`, **Mobile** = `20px`.
+In **General**, choose **Width** = `%`, set **Value (Desktop)** = `46%`, **Value (Tablet)** = `100%`, **Value (Mobile)** = `100%`. Set **Padding** for **Desktop** = `0 10 0 10`, **Table** = `0 15 0 0`, **Mobile** = `21 0 21 0`.
 
-Drag & drop a **Text** widget to below the spacer. Set **Text style** = `Custom`, **Font size** = `16px`, **Text color** = `#111111`, and edit the text and link directly in Page Builder.
+To edit **Banner 2**, change your image, set **Image width** = `435px`, **Image height** = `435px`. If you want to show different image on mobile please enable **Show different image on mobile** upload your image in **Image (Mobile)** field. Set **Border radius** = `30px`.
 
-**Watch the instruction video:**
+In **Content**, hide **Heading text** if your image already has text.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9eeJV3ksQmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In **General**, choose **Width** = `%`, set **Value (Desktop)** = `25.5%`, **Value (Tablet)** = `50%`, **Value (Mobile)** = `100%`. Set **Padding** for **Desktop** = `0 20 0 0`, **Table** = `0 0 32 0`, **Mobile** = `0 0 0 0`.
 
+Set values for **Banner 3** as the same **Banner 2**. In **General** of **Banner 3**, set **Padding** for **Desktop** = `0 0 0 20`, **Tablet** = `0 0 0 15`, **Mobile** = `0 0 0 0`.
 
-### Category banners
+### Recent blog
 
-![edit-sports-category-banners](img/edit-sports-category-banners.jpg)
+![Recent blog](img/recent-blog.jpg)
 
-In Page Builder, drag & drop **Flex Banners | PapaThemes Beautify** widget to the corresponding position. Delete all items except the first one.
-
-- Edit the first banner, upload your logo image in **Image** field. Set **Image width**, **Image height** accordingly (our recommended size 610x400px). Change **Border radius** = `0`.
-- In **Content** group:
-  - Set **Content align** = `center` & `bottom`.
-  - Set **Content padding** = `20 20 20 20`.
-  - show all **Heading text**, **Description text** and **Action button**.
-- In **General** group:
-  - Select **Style for theme** = `Kansha Sport`.
-- Edit the text and button text directly in Page Builder.
-- Duplicate the banner to 2 and upload different image for each banner.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JiMCw4pPGuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### We're Here For You parallax banner
-
-![edit-sports-parallax-banner](img/edit-sports-parallax-banner.jpg)
-
-In Page Builder, drag & drop **Leaderboard Banner | PapaThemes Beautify** widget to the corresponding position.
-
-- Upload image in **Image** field and set **Banner height** = `400px`, **Banner height (mobile)** = `240px`.
-- Set **Content align** = `center` & `middle`.
-- Optionally input **Banner link**.
-- Tick on the **Parallax** checkbox.
-- Un-tick **Display in container div** to display the banner image full width.
-- In **Heading** group, set all colors to `#ffffff`.
-- In **Text** group, set all colors to `#ffffff`.
-- In **Button** group, set **Button style** = `Custom`, **Button radius** = `0`, **Button color** = `#ffffff`, **Button color hover** = `#111111`, **Button text color** = `#111111`, **Button text color hover** = `#ffffff`.
-- Edit the text and button directly in Page Builder.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8Z2ihKOfNCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Featured video
-
-![edit-sports-featured-video](img/edit-sports-featured-video.jpg)
-
-In Page Builder drag & drop **Layout** to the corresponding position and divide to 3 columns.
-
-Drag & drop the **Video** widget to center column and enter your YouTube or Vimeo video link to **Video URL**.
-
-To display the title, drag & drop **Section Heading | PapaThemes Beautify** widget to above the layout. Set **Padding** = `60 0 30 0`, **Padding (Mobile)** = `40 0 20 0`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nzug892Ob6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+In **Page Builder** > **Theme Styles** > **Home Page** > **Recent Blog** find **Number of posts**, select `2` to change display **Recent blog**.
 
 
 ## Customizing Products Display
