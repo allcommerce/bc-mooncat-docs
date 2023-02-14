@@ -544,7 +544,7 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795439897?h=4ef5896555&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-footer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
-## Setting Up CBD Style Home Page
+## Setting Up Baby Style Home Page
 
 ### General
 
@@ -573,21 +573,6 @@ You can read these common instructions in **Setting Up Pets Style Home Page** ch
 - [Recent blog posts](#recent-blog-posts)
 - [Newsletter](#newsletter)
 - [Footer](#footer)
-
-
-### FAQ sections
-
-![edit-cbd-faqs-section](img/edit-cbd-faqs-section.jpg)
-
-Drag & drop **Hero Banner** widget to the corresponding position. Enter **Banner link** as you want. Set **Content align** = `Left`. **Banner size** = `Medium`. **Background** = `Image` and upload the image you want to display. Set **Image fit** = `Fill to box`, **Image parallax** = `Off`. **Image align** = `center` & `middle`.
-
-In **Text** group, choose showing **Title** and **Description**. Set Title **Font Size** = `40px` and Description **Font size** = `16px`. **Text color** = `#ffffff`, **Text color (mobile)** = `#0f0f2d`.
-
-In **Button** group, choose showing **Button**. Set **button style** = `Square`, **Button color** = **Button color (mobile)** = `#1f439e`.
-
-**Watch the instruction video:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SMpiKYIkrIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Left-sidebar layout
 
@@ -687,7 +672,7 @@ In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Butto
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/msOlPO5qWNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Setting Up Sport Style Home Page
+## Setting Up Heath-care Style Home Page
 
 ### General
 
