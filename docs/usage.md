@@ -708,10 +708,6 @@ Desktop
 
 ![three banners](img/three-banners.jpg)
 
-Mobile
-
-![three banners on mobile](img/three-banners-mobile.jpg)
-
 To create **Three Banners**:
 
 In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`. Drag and drop **Flex Banners | PapaThemes Beautify** widget into **Column 1** and duplicate **Banner 1** to 3 banners.
@@ -734,7 +730,7 @@ Set values for **Banner 3** as the same **Banner 2**. In **General** of **Banner
 
 ![Recent blog](img/recent-blog.jpg)
 
-In **Page Builder** > **Theme Styles** > **Home Page** > **Recent Blog** find **Number of posts**, select `Disable`, `2`, `3` or `6` to change display **Recent blog**.
+In **Page Builder** > **Theme Styles** > **Home Page** > **Recent Blog** find **Number of posts**, select `2` to change display **Recent blog**.
 
 
 ## Customizing Products Display
