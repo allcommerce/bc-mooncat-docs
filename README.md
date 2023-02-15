@@ -1,2 +1,2 @@
-# bc-kansha-docs
-Documentation for the Kansha BigCommerce Theme by PapaThemes
+# bc-Mooncat-docs
+Documentation for the Mooncat BigCommerce Theme by PapaThemes

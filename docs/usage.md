@@ -28,7 +28,7 @@ Then click the Install buttons in turn to install all available widgets:
 
 ![install-papathemes-widgets](img/install-papathemes-widgets.jpg)
 
-Go to **Storefront** > **My Themes** > click **Customize** in dropdown menu of Kansha theme to open Page Builder. Select any theme style to start:
+Go to **Storefront** > **My Themes** > click **Customize** in dropdown menu of Mooncat theme to open Page Builder. Select any theme style to start:
 
 ![click-theme-customize](img/click-theme-customize.jpg)
 
@@ -576,7 +576,7 @@ To display category on left sidebar, in **page builder** > **Theme styles** > **
 
 ![left-sidebar](img/left-sidebar.jpg)
 
-### Left banner below Left-sidebar
+### Banner below sidebar
 
 ![left-banner-below-left-sidebar](img/left-banner-below-left-sidebar.jpg)
 
@@ -592,7 +592,7 @@ In **General** > **Padding**, set `0` for all values.
 
 In **General** > **Padding**, set `100%` for all device.
 
-### Newsletter in footer
+### Footer newsletter
 
 Go to Page Builder, in **Theme Styles** > **Footer** > **Newsletter** section, select **Style** = `In Footer`. Select **Show store logo** and **Show social icons** = `In newsletter`.
 Make sure **Show newsletter form** is selected. You can change the **Heading**, **background color**, **background image**, **button** and **text colors**.
