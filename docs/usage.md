@@ -551,15 +551,19 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
 - [Top categories](#top-categories)
 - [Product by category](#product-by-category)
 - [Kitten and Puppy](#kitten-and-puppy)
 - [Top Brand](#top-brand)
 - [Double banner](#double-banner)
 - [Banner](#banner)
+- [Service icon s](#service-icons)
+- [Category banners](#category-banners)
 - [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
@@ -576,35 +580,6 @@ To display category on left sidebar, in **page builder** > **Theme styles** > **
 
 ![left-sidebar](img/left-sidebar.jpg)
 
-### Left banner below Left-sidebar
-
-![left-banner-below-left-sidebar](img/left-banner-below-left-sidebar.jpg)
-
-To create **Left Banner**:
-
-Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`.
-
-Select **Column 1**, set **Padding** = `0 0 0 0`.
-
-Drag & drop **Flex Banners | PapaThemes Beautify** widget into **Colum 1**. Delete all other banners except the first one.
-
-Upload your image, set **Image width** = `388`, **Image height** = `725`, **Border radius** = `30px`.
-
-In **Content**, hide **Heading text** if your image has text.
-
-In **General** > **Padding**, set `0` for all values.
-
-In **General** > **Padding**, set `100%` for all device.
-
-### Newsletter in footer
-
-![newsletter-in-footer](img/newsletter-in-footer.jpg)
-
-To enable newsletter form, go to **Marketing** > **Email Marketing**, make sure **Allow Newsletter Subscriptions** is checked. Optionally select **Show Newsletter Summary** and enter the summary text as you want.
-
-Go to Page Builder, in **Theme Styles** > **Footer** > **Newsletter** section, select **Style** = `In Footer`. Select **Show store logo** and **Show social icons** = `In newsletter`.
-Make sure **Show newsletter form** is selected. You can change the **Heading**, **background color**, **background image**, **button** and **text colors**.
-
 ## Setting Up Yoga Style Home Page
 
 ### General
@@ -612,15 +587,18 @@ Make sure **Show newsletter form** is selected. You can change the **Heading**, 
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
 - [Top categories](#top-categories)
 - [Product by category](#product-by-category)
 - [Kitten and Puppy](#kitten-and-puppy)
 - [Top Brand](#top-brand)
 - [Double banner](#double-banner)
 - [Banner](#banner)
+- [Category banners](#category-banners)
 - [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
@@ -701,15 +679,18 @@ In **Button** group, set **Button** = `on`, **Button style** = `Custom`, **Butto
 You can read these common instructions in **Setting Up Pets Style Home Page** chapter:
 
 - [Header](#header)
-- [Top Banner](#top-banner)
+- [Home page carousel section](#home-page-carousel-section)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Brand logos](#brand-logos)
+- [Main carousel right banner](#main-carousel-right-banner)
 - [Top categories](#top-categories)
 - [Product by category](#product-by-category)
 - [Kitten and Puppy](#kitten-and-puppy)
 - [Top Brand](#top-brand)
 - [Double banner](#double-banner)
 - [Banner](#banner)
+- [Category banners](#category-banners)
 - [Special products tabs](#special-products-tabs)
 - [Featured products](#featured-products)
 - [New products](#new-products)
