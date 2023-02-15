@@ -580,25 +580,19 @@ To display category on left sidebar, in **page builder** > **Theme styles** > **
 
 ![left-banner-below-left-sidebar](img/left-banner-below-left-sidebar.jpg)
 
-To create **Left Banner**:
+To create **Left Banner**, drag & drop **Layout** widget to the corresponding position, change **Column** = `1`.
 
-Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`.
+Select **Column 1**, set **Padding** = `0 0 0 0`. Drag & drop **Flex Banners | PapaThemes Beautify** widget into **Colum 1**. Delete all other banners except the first one.
 
-Select **Column 1**, set **Padding** = `0 0 0 0`.
+Upload your image set **Image width** = `388`, **Image height** = `725` and **Border radius** = `30px`.
 
-Drag & drop **Flex Banners | PapaThemes Beautify** widget into **Colum 1**. Delete all other banners except the first one.
-
-Upload your image, set **Image width** = `388`, **Image height** = `725`, **Border radius** = `30px`.
-
-In **Content**, hide **Heading text** if your image has text.
+In **Content**, hide **Heading text** if your image has text already.
 
 In **General** > **Padding**, set `0` for all values.
 
 In **General** > **Padding**, set `100%` for all device.
 
 ### Newsletter in footer
-
-To enable newsletter form, go to **Marketing** > **Email Marketing**, make sure **Allow Newsletter Subscriptions** is checked. Optionally select **Show Newsletter Summary** and enter the summary text as you want.
 
 Go to Page Builder, in **Theme Styles** > **Footer** > **Newsletter** section, select **Style** = `In Footer`. Select **Show store logo** and **Show social icons** = `In newsletter`.
 Make sure **Show newsletter form** is selected. You can change the **Heading**, **background color**, **background image**, **button** and **text colors**.
