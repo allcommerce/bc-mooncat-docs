@@ -1084,7 +1084,7 @@ Configuring the search results page in **Page Builder** > **Theme Styles** > **P
 
 ![brand-quick-view](img/brand-quick-view.jpg)
 
-In **Storefront** > **Marketing Banner**, click **Create a Banner** button. 
+In **Marketing** > **Marketing Banner**, click **Create a Banner** button. 
 
 - Enter the brand introduction content to **Banner Content**.
 - Select **Show on Page** = `For a Specific Brand` and select the corresponding brand.
