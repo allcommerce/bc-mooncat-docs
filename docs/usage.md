@@ -865,7 +865,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
 Enabling this feature in **Page Builder** > **Theme Styles** > **Products** > **Frequently Bought Together**, Select **Position** to display it.
 
 - **Load products from**: Specifing products to display here.
-  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `Wine vintage, Custom Field 1,...` and value is the relevant product ID. For example:
+  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `__alsobought` and value is the relevant product ID. For example:
   ![edit-product-bought-together](img/edit-product-bought-together.jpg)
   - `Related products`: Pulling from the related products.
   - `Similar by biews`: Pulling from customer also viewed products.
