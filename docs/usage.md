@@ -917,9 +917,9 @@ Note: The time before cut off the message will show **shipping today** after cut
 
 To create flash sales bar for each product, in **product** select the product that you want to add flash sale bar. 
 
-Find customer fields, click on add **Add Custom Field**. Copy `__countdown_label` and paste into **Custom Field Name:**. in **Custom Field Value:**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
+Find customer fields, click on add **Add Custom Field**. Copy `__countdown_label` and paste into **Custom Field Name**. In **Custom Field Value**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
 
-Create another custom field, Copy `__countdown_date` and paste into **Custom Field Name:**. in **Custom Field Value:**, enter your cut off time following the format: `<yyyy>-<mm>-<dd> <hh>:<mm>:<ss><timezone>` (example: 2023-03-15 17:00:00-7).
+Create another custom field, Copy `__countdown_date` and paste into **Custom Field Name**. In **Custom Field Value**, enter your cut off time following the format: `<yyyy>-<mm>-<dd> <hh>:<mm>:<ss><timezone>` (example: 2023-03-15 17:00:00-7).
 
 Note:
 
