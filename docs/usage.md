@@ -825,6 +825,15 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
 
 ![product-custom-fields-tab](img/product-custom-fields-tab.jpg)
 
+### Custom tabs
+
+![Custom-tab-sample](img\custom-tab-sample.jpg)
+To add the custom tabs and product pages, edit your product description, click on HTML button to open HTML Source Editor:
+
+![Custom-tab](img\custom-tab.jpg)
+
+Use the editor in the [link](https://bc-supermarket-docs.papathemes.com/customization/product-page#custom-tabs) to generate HTML for your custom tabs. Click Export HTML button, copy & paste the generated HTML at the end of HTML Source Editor.
+
 ### Displaying Delivery & Returns tab
 
 In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
