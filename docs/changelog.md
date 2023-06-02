@@ -1,5 +1,11 @@
 # Release Notes
 
+## 1.1.1 (06-02-2023)
+- #560 Fix Cart button missing quantity (#561)
+- Fix Cart image #562
+- Fix title spacing #540 (#563)
+- Fix layout break when container max width is empty
+
 ## 1.1.0 (05-12-2023)
 - Fix #538: Also bought images overlap in quick view
 - Fix #539: Layout shift on Flash Sale countdown on PDP
