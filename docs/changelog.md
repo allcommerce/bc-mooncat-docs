@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.1.2 (06-02-2023)
+- Fix sub-categories at pbcst section (#565)
+
 ## 1.1.1 (06-02-2023)
 - #560 Fix Cart button missing quantity (#561)
 - Fix Cart image #562
