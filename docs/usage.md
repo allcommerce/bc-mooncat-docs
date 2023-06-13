@@ -111,6 +111,27 @@ You can also hide or **Show web page links** and **Show widgets in the mega menu
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796851987?h=a75fba7b62&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-main navigation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+#### Hide webpage links
+
+To hide Weboage links such as **Contact us**, **About Us**, **Shipping and return** from header, in **Themes style** > **Header** Find **Hide Webpage links** option checked to hide all the links except **Categories** link.
+
+If you only want to hide some specific links not all the link you can do following step:
+
+- `+ Begining` field: input the order link you want to show.
+- `+ Limit` field: input number web link you want to show after begining field.
+
+For example: if you only want show **Theme Features** and **shipping & return**:
+- Begining field: 2;
+- limit field:  2;
+
+Note: the order will only count non-categories link.
+
+Before
+![web-links-order](img/web-links-order.jpg)
+
+Affer:
+![hidden-web-links](img/hidden-web-links.jpg)
+
 #### Products by category in mega menu
 
 ![products-by-category-mega-menu](img/products-by-category-in-mega-menu.png)
@@ -191,7 +212,39 @@ Click on `...` at the right of widget name and select **Setting** > **Carousel**
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796842307?h=85ac457107&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-Popular brand in home carousel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-#### Right banner in homepage carousel
+#### Left column banner in homepage carousel
+
+![Main-carousel-left-banner](img/left-col-banner.jpg)
+
+To display left banner in Main carousel.
+
+click on Theme Styles > Home Page > Carousel find show **left column** and enable it to open widget region.
+
+Drag and drop layout widget from page builder to corresponding position in **left column**. Change column to 1. Set margin left and right = 0. Select column 1 and change padding left, right = 0.
+
+drag & drop **Flex Banners | PapaThemes Chiara** widget to layout. Delete all banner **except banner 1**. In Banner click on **Image** and upload your image. Change image **width** = `398px` and **height** = `712px`. Change **border radius** to `10px`
+
+To remove border please create custom script as follow.
+
+Go to Storefront > Script Manager, click Create a Script, choose:
+ 
+- Location on page = Footer
+- Select pages where script will be added = All Pages
+- Script type = Script
+ 
+Enter the script below to Scripts contents:
+ 
+```
+<script>
+(function() {
+var style = document.createElement('style');
+style.innerHTML = '.heroCarousel-left-col{border:none}';
+document.head.appendChild(style);
+})();
+</script>
+```
+
+#### Right column banner in homepage carousel
 ![Main-carousel-right-banner](img/right-banner-main-carousel.jpg)
 
 To display right banner in Main carousel.
@@ -543,6 +596,19 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795439897?h=4ef5896555&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-footer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+### Display custom footer links
+
+In **Page builder** > **Custom Widget** find **Footer links | PapaThemes Beautify** widget then drag and drop the widget to corresponding position in Footer.
+
+Select the **Column 1** and change **padding** to `0`
+
+In **design mode** you can type your link content and click on the **insert/edit link** button as picture below:
+
+![footer-links](img/footer-link-widget.jpg)
+
+In the popup window, copy your web link to `URL`. On the **Open links..** field you can select how your link could be open in **New Window** or **Current Window**
+ 
+ ![Insert-links](img/insert-links.jpg)
 
 ## Setting Up Baby Style Home Page
 
