@@ -82,6 +82,8 @@
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#main-navigation">Main Navigation</a>
     </li>
+    <li class="toctree-l4"><a class="reference internal" href="#hide-webpage-links">Hide webpage links</a>
+    </li>
     <li class="toctree-l4"><a class="reference internal" href="#products-by-category-in-mega-menu">Products by category in mega menu</a>
     </li>
         </ul>
@@ -94,7 +96,9 @@
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#popular-brand-logos">Popular Brand logos</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#right-banner-in-homepage-carousel">Right banner in homepage carousel</a>
+    <li class="toctree-l4"><a class="reference internal" href="#left-column-banner-in-homepage-carousel">Left column banner in homepage carousel</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#right-column-banner-in-homepage-carousel">Right column banner in homepage carousel</a>
     </li>
         </ul>
     </li>
@@ -127,6 +131,8 @@
     <li class="toctree-l3"><a class="reference internal" href="#newsletter">Newsletter</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#footer">Footer</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#display-custom-footer-links">Display custom footer links</a>
     </li>
         </ul>
     </li>
@@ -394,6 +400,21 @@
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796851987?h=a75fba7b62&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-main navigation"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
+<h4 id="hide-webpage-links">Hide webpage links<a class="headerlink" href="#hide-webpage-links" title="Permanent link">&para;</a></h4>
+<p>To hide Weboage links such as <strong>Contact us</strong>, <strong>About Us</strong>, <strong>Shipping and return</strong> from header, in <strong>Themes style</strong> &gt; <strong>Header</strong> Find <strong>Hide Webpage links</strong> option checked to hide all the links except <strong>Categories</strong> link.</p>
+<p>If you only want to hide some specific links not all the link you can do following step:</p>
+<ul>
+<li><code>+ Begining</code> field: input the order link you want to show.</li>
+<li><code>+ Limit</code> field: input number web link you want to show after begining field.</li>
+</ul>
+<p>For example: if you only want show <strong>Theme Features</strong> and <strong>shipping &amp; return</strong>:
+- Begining field: 2;
+- limit field:  2;</p>
+<p>Note: the order will only count non-categories link.</p>
+<p>Before
+<img alt="web-links-order" src="img/web-links-order.jpg" /></p>
+<p>Affer:
+<img alt="hidden-web-links" src="img/hidden-web-links.jpg" /></p>
 <h4 id="products-by-category-in-mega-menu">Products by category in mega menu<a class="headerlink" href="#products-by-category-in-mega-menu" title="Permanent link">&para;</a></h4>
 <p><img alt="products-by-category-mega-menu" src="img/products-by-category-in-mega-menu.png" /></p>
 <p>To create <strong>Products by category in mega menu</strong>:</p>
@@ -446,7 +467,29 @@
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796842307?h=85ac457107&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-Popular brand in home carousel"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
-<h4 id="right-banner-in-homepage-carousel">Right banner in homepage carousel<a class="headerlink" href="#right-banner-in-homepage-carousel" title="Permanent link">&para;</a></h4>
+<h4 id="left-column-banner-in-homepage-carousel">Left column banner in homepage carousel<a class="headerlink" href="#left-column-banner-in-homepage-carousel" title="Permanent link">&para;</a></h4>
+<p><img alt="Main-carousel-left-banner" src="img/left-col-banner.jpg" /></p>
+<p>To display left banner in Main carousel.</p>
+<p>click on Theme Styles &gt; Home Page &gt; Carousel find show <strong>left column</strong> and enable it to open widget region.</p>
+<p>Drag and drop layout widget from page builder to corresponding position in <strong>left column</strong>. Change column to 1. Set margin left and right = 0. Select column 1 and change padding left, right = 0.</p>
+<p>drag &amp; drop <strong>Flex Banners | PapaThemes Chiara</strong> widget to layout. Delete all banner <strong>except banner 1</strong>. In Banner click on <strong>Image</strong> and upload your image. Change image <strong>width</strong> = <code>398px</code> and <strong>height</strong> = <code>712px</code>. Change <strong>border radius</strong> to <code>10px</code></p>
+<p>To remove border please create custom script as follow.</p>
+<p>Go to Storefront &gt; Script Manager, click Create a Script, choose:</p>
+<ul>
+<li>Location on page = Footer</li>
+<li>Select pages where script will be added = All Pages</li>
+<li>Script type = Script</li>
+</ul>
+<p>Enter the script below to Scripts contents:</p>
+<pre><code>&lt;script&gt;
+(function() {
+var style = document.createElement('style');
+style.innerHTML = '.heroCarousel-left-col{border:none}';
+document.head.appendChild(style);
+})();
+&lt;/script&gt;
+</code></pre>
+<h4 id="right-column-banner-in-homepage-carousel">Right column banner in homepage carousel<a class="headerlink" href="#right-column-banner-in-homepage-carousel" title="Permanent link">&para;</a></h4>
 <p><img alt="Main-carousel-right-banner" src="img/right-banner-main-carousel.jpg" /></p>
 <p>To display right banner in Main carousel.</p>
 <p>click on Theme Styles &gt; Home Page &gt; Carousel find show <strong>right column</strong> and enable it to open widget region.</p>
@@ -645,6 +688,13 @@ Make sure <strong>Show newsletter form</strong> is selected. You can change the 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795439897?h=4ef5896555&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-footer"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
+<h3 id="display-custom-footer-links">Display custom footer links<a class="headerlink" href="#display-custom-footer-links" title="Permanent link">&para;</a></h3>
+<p>In <strong>Page builder</strong> &gt; <strong>Custom Widget</strong> find <strong>Footer links | PapaThemes Beautify</strong> widget then drag and drop the widget to corresponding position in Footer.</p>
+<p>Select the <strong>Column 1</strong> and change <strong>padding</strong> to <code>0</code></p>
+<p>In <strong>design</strong> you can type your link content and click on the <strong>insert/edit link</strong> button as picture below:</p>
+<p><img alt="footer-links" src="img/footer-link-widget.jpg" /></p>
+<p>In the popup window, copy your web link to <code>URL</code>. On the <strong>Open links..</strong> field you can select how your link could be open in <strong>New Window</strong> or <strong>Current Window</strong></p>
+<p><img alt="Insert-links" src="img/insert-links.jpg" /></p>
 <h2 id="setting-up-baby-style-home-page">Setting Up Baby Style Home Page<a class="headerlink" href="#setting-up-baby-style-home-page" title="Permanent link">&para;</a></h2>
 <h3 id="general">General<a class="headerlink" href="#general" title="Permanent link">&para;</a></h3>
 <p>You can read these common instructions in <strong>Setting Up Pets Style Home Page</strong> chapter:</p>
