@@ -602,7 +602,7 @@ In **Page builder** > **Custom Widget** find **Footer links | PapaThemes Beautif
 
 Select the **Column 1** and change **padding** to `0`
 
-In **design mode** you can type your link content and click on the **insert/edit link** button as picture below:
+In **design** you can type your link content and click on the **insert/edit link** button as picture below:
 
 ![footer-links](img/footer-link-widget.jpg)
 
