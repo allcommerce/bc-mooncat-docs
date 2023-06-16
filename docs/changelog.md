@@ -1,5 +1,15 @@
 # Release Notes
 
+## 1.2.0 (06-16-2023)
+- Fix Choose Options open new window when Quick View is disabled
+- Add theme option: Enable quick search (show_quick_search)
+- Remove padding from the left column of the home carousel #571
+- Add name & price to aria-label to product cards #567
+- Fix #577 carousel top widget region overflow
+- Fix #576 blog break layout on load
+- Fix #579 New / Featured / Bestselling Tabs display incorrect column number
+- Remove unused Newsletter section on homepage #569
+
 ## 1.1.2 (06-02-2023)
 - Fix sub-categories at pbcst section (#565)
 
