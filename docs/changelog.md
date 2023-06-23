@@ -1,5 +1,17 @@
 # Release Notes
 
+## 1.3.0 (06-23-2023)
+- Fix #586: Sale badge percent calculated from msrp price (#589)
+- Fix #587 Cart page "you may also like" not consistent spacing (#590)
+- Fix #588 Spacing of add to cart button in product card (#591)
+- Fix #578 CLS issue of product options on product cards (#584)
+- Fix #592 Cart buttons not show up on recently viewed products and similar products on cart page (#593)
+- Fix sticky header hidden when open menu on mobile occasionally
+- Add recently viewed products on the left sidebar when layout is left #575 (#585)
+- Fix #594 dropdown menu not display using Enter key (#595)
+- Fix bulk order category template to match theme style
+- Correct recently viewed products tab name in my account page (#597)
+
 ## 1.2.0 (06-16-2023)
 - Fix Choose Options open new window when Quick View is disabled
 - Add theme option: Enable quick search (show_quick_search)
