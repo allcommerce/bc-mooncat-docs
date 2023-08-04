@@ -1,5 +1,19 @@
 # Release Notes
 
+## 1.4.0 (08-04-2023)
+- Fix price label, RRP price not display properly. Fix paypal button display on preview cart popup - #605 (#607)
+- Add option to display SKU & brand on product card - #598 (#599)
+- Add option to display custom field on product cards #611 (#612)
+- Add option to display categories tab on new, bestselling products on homepage #613 (#614)
+- Fix accessibility of display type radios on category pages #600 (#602)
+- Fix long category name on products by category on homepage #603 (#609)
+- Fix whapsapp link #608 (#610)
+- Fix Wishlist still shows up when disabled in Settings #615 (#616)
+- Fix edit cart item display incorrect message when product is unavailable / out of stock
+- Fixed unavailable options' strikeout display during cart edit
+- Fix cart quantity input change not working when apply unavailable options fix
+- Hide out of stock if product cannot purchase and inventory is not track
+
 ## 1.3.0 (06-23-2023)
 - Fix #586: Sale badge percent calculated from msrp price (#589)
 - Fix #587 Cart page "you may also like" not consistent spacing (#590)

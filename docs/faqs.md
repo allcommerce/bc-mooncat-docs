@@ -38,12 +38,6 @@ Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
 
 Enter the script below to **Scripts contents**:
 
-@media (min-width: 801px) {
-    .navPage-subMenu-list { grid-template-columns: repeat(4, minmax(max-content,350px)) }
-    .navPage-subMenu-item:nth-child(3n) { border-right: 1px solid #d6d6d6 }
-    .navPage-subMenu-item:nth-child(4n) { border-right: 0 }
-}
-
 ```html
 <script>
 (function() {
@@ -57,3 +51,35 @@ style.innerHTML = '@media (min-width: 801px) {'
 })();
 </script>
 ```
+
+
+## Adjust the mega menu to display columns that flow vertically from left to right
+
+Before: | After:
+--------|-------
+| ![before change](img/adjust-mega-menu-column-before.png) | ![after change](img/adjust-mega-menu-column-after.png) |
+
+
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `All Pages`
+- **Script type** = `Script`
+
+Enter the script below to **Scripts contents**:
+
+```html
+<script>
+(function() {
+var style = document.createElement('style');
+style.innerHTML = `
+@media (min-width: 801px) {
+    .navPage-subMenu-list { display: block; column-count: 4; column-gap: 1.5rem }
+    .navPage-subMenu-item { width: 100%; break-inside: avoid; }
+}
+`;
+document.head.appendChild(style);
+})();
+</script>
+```
+
