@@ -76,6 +76,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#display-mega-menu-with-4-columns">Display mega menu with 4 columns</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adjust-the-mega-menu-to-display-columns-that-flow-vertically-from-left-to-right">Adjust the mega menu to display columns that flow vertically from left to right</a>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -150,11 +152,6 @@ document.head.appendChild(style);
 <li><strong>Script type</strong> = <code>Script</code></li>
 </ul>
 <p>Enter the script below to <strong>Scripts contents</strong>:</p>
-<p>@media (min-width: 801px) {
-    .navPage-subMenu-list { grid-template-columns: repeat(4, minmax(max-content,350px)) }
-    .navPage-subMenu-item:nth-child(3n) { border-right: 1px solid #d6d6d6 }
-    .navPage-subMenu-item:nth-child(4n) { border-right: 0 }
-}</p>
 <pre><code class="language-html">&lt;script&gt;
 (function() {
 var style = document.createElement('style');
@@ -164,6 +161,41 @@ style.innerHTML = '@media (min-width: 801px) {'
 + '.navPage-subMenu-item:nth-child(4n) { border-right: 0 }'
 + '}'
 ;document.head.appendChild(style);
+})();
+&lt;/script&gt;
+</code></pre>
+<h2 id="adjust-the-mega-menu-to-display-columns-that-flow-vertically-from-left-to-right">Adjust the mega menu to display columns that flow vertically from left to right<a class="headerlink" href="#adjust-the-mega-menu-to-display-columns-that-flow-vertically-from-left-to-right" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Before:</th>
+<th>After:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><img alt="before change" src="img/adjust-mega-menu-column-before.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>All Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to <strong>Scripts contents</strong>:</p>
+<pre><code class="language-html">&lt;script&gt;
+(function() {
+var style = document.createElement('style');
+style.innerHTML = `
+@media (min-width: 801px) {
+    .navPage-subMenu-list { display: block; column-count: 4; column-gap: 1.5rem }
+    .navPage-subMenu-item { width: 100%; break-inside: avoid; }
+}
+`;
+document.head.appendChild(style);
 })();
 &lt;/script&gt;
 </code></pre>
