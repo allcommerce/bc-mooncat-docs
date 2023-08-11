@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.4.1 (08-11-2023)
+- Fix logo displayed in footer contact us #617 (#618)
+- Fix unavailable cross out. Fix spacing of Ask Question link #619 (#620)
+- Fix spacing of subcategories in new/featured/bestselling homepage sections #620 (#622)
+
 ## 1.4.0 (08-04-2023)
 - Fix price label, RRP price not display properly. Fix paypal button display on preview cart popup - #605 (#607)
 - Add option to display SKU & brand on product card - #598 (#599)
