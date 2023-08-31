@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.4.2 (08-31-2023)
+- Fix pre-order product should hide shipping countdown and in stock ready icon #623 (#624)
+- Fix incorrect quantity adding to cart when typing (#627)
+
 ## 1.4.1 (08-11-2023)
 - Fix logo displayed in footer contact us #617 (#618)
 - Fix unavailable cross out. Fix spacing of Ask Question link #619 (#620)
