@@ -1,5 +1,14 @@
 # Release Notes
 
+## 1.5.0 (09-22-2023)
+- Fix preventing YouTube video iframe affecting browser history.
+- Fix view cart on mini cart not working (#629)
+- Fix product image gallery thumbnail cannot swipe to left
+- Fix graphQL product error when viewing more than 50 products
+- Fix unable to scroll to the last thumbnail on PDP
+- Fix Footer logo cause Layout Shift and image size not properly set (#633)
+- Fix: Move product thumbnail's slick dots down (#634)
+
 ## 1.4.2 (08-31-2023)
 - Fix pre-order product should hide shipping countdown and in stock ready icon #623 (#624)
 - Fix incorrect quantity adding to cart when typing (#627)
