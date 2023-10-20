@@ -1,5 +1,11 @@
 # Release Notes
 
+## 1.5.1 (10-20-2023)
+- Fix duplicate web link in ask question #635 (#636)
+- Update default theme settings: show card swatches, FBT = related, infinite product loading = button
+- Update default config to display more products
+- Change popular search keywords type from text to input
+
 ## 1.5.0 (09-22-2023)
 - Fix preventing YouTube video iframe affecting browser history.
 - Fix view cart on mini cart not working (#629)
