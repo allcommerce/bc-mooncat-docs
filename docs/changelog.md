@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.6.0 (11-10-2023)
+- Update Product Page to enhance sale countdown, add buy now button (#638)
+
 ## 1.5.1 (10-20-2023)
 - Fix duplicate web link in ask question #635 (#636)
 - Update default theme settings: show card swatches, FBT = related, infinite product loading = button
