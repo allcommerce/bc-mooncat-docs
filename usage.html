@@ -224,6 +224,8 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#flash-sales">Flash sales</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#autoship">Autoship</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#brand-logo-in-product-detail">Brand logo in product detail</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#ask-question">Ask question</a>
@@ -259,6 +261,12 @@
     <li class="toctree-l2"><a class="reference internal" href="#customizing-brand-page-search-page">Customizing Brand Page &amp; Search Page</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#displaying-brand-quick-view-introduction">Displaying brand quick-view introduction</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#customizing-cart-page">Customizing Cart page</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#display-free-shipping-message-in-cart-page">Display free shipping message in cart page.</a>
     </li>
         </ul>
     </li>
@@ -992,6 +1000,25 @@ To add the custom tabs and product pages, edit your product description, click o
 <p><code>&lt;timezone&gt;</code> only input <code>+ or -</code> and <code>number</code> example: <code>+7</code>. if timezone are not entered, the countdown time will be different in different countries.</p>
 </li>
 </ul>
+<h3 id="autoship">Autoship<a class="headerlink" href="#autoship" title="Permanent link">&para;</a></h3>
+<p><img alt="Autoship" src="img/Autoship.jpg" /></p>
+<p>Drag and drop <strong>Layout widget</strong> to the corresponding position, change Column = <code>1</code>. Select <strong>Column 1</strong>, set <strong>Padding</strong> = <code>15 18 15 18</code>.</p>
+<p>Drag and drop <strong>Text widget</strong> to column 1 change <strong>Font size</strong> to <code>16px</code>, set <strong>Alignment</strong> to <code>Left</code></p>
+<p>Drag and drop <strong>HTML widget below</strong> Text widget, copy and paste the script below to HTML widget then click on <strong>save</strong>:</p>
+<pre><code>&lt;p style=&quot;
+
+  color: #4E299E;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+&quot;&gt;
+&lt;i class='fa fa-check'&gt; &lt;/i&gt; REE Access To chat With Licensed vets 7 Day A Week.
+&lt;br&gt;
+  &lt;i class='fa fa-check'&gt;&lt;/i&gt; Save 5% On All Future Autoship Orders.
+&lt;br&gt;&lt;i class='fa fa-check'&gt;&lt;/i&gt; No Fees, No commitments - Cancel Autoship Anytime
+&lt;/p&gt;
+</code></pre>
 <h3 id="brand-logo-in-product-detail">Brand logo in product detail<a class="headerlink" href="#brand-logo-in-product-detail" title="Permanent link">&para;</a></h3>
 <p><img alt="brand logo in product detail" src="img/brand-logo.jpg" /></p>
 <p>To display <strong>Brand logo</strong> in product detail, in <strong>Page Builder</strong> &gt; <strong>Products</strong> &gt; <strong>Product Page</strong> find and check <strong>Show brand image</strong> option.</p>
@@ -1109,6 +1136,19 @@ To add the custom tabs and product pages, edit your product description, click o
 <p>Watch the instruction video:</p>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796915050?h=fa4bc20f8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-Brand description"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
+
+<h2 id="customizing-cart-page">Customizing Cart page<a class="headerlink" href="#customizing-cart-page" title="Permanent link">&para;</a></h2>
+<h3 id="display-free-shipping-message-in-cart-page">Display free shipping message in cart page.<a class="headerlink" href="#display-free-shipping-message-in-cart-page" title="Permanent link">&para;</a></h3>
+<p>Not qualify message</p>
+<p><img alt="Not-qualify" src="\img\not-egilible.jpg" /></p>
+<p>Qualify message</p>
+<p><img alt="qualify" src="\img\promotion-qualify.jpg" /></p>
+<p>In <strong>Marketing</strong> &gt; <strong>Promotion</strong> click on <strong>create</strong> and select <strong>With legacy editor</strong></p>
+<p>In <strong>Promotion detail</strong> name your promotion </p>
+<p>In <strong>promotion type</strong> select <code>Orders totaling more than X amount get free shipping to specific shipping zones</code> at the field <strong>spend at least</strong> type your amount</p>
+<p><img alt="free-shipping-editor" src="\img\free-shipping.jpg" /></p>
+<p>In <strong>Promotion option</strong> type your message at <strong>Congratulations Banner Message</strong> to display for cart have qualified and type your message for cart have not qualify at <strong>Upsell Banner Message</strong> with format <code>[your text] %%condition.remaining%% [your text]</code> then click save</p>
+<p><img alt="promotion-message" src="\img\Promotion-message.jpg" /></p>
               
             </div>
           </div>
