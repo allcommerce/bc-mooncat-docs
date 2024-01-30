@@ -1003,6 +1003,33 @@ Note:
 - `<hh>:<mm>:<ss>` is 24 hour format.
   
 - `<timezone>` only input `+ or -` and `number` example: `+7`. if timezone are not entered, the countdown time will be different in different countries.
+
+### Autoship
+
+![Autoship](img\Autoship.jpg)
+
+Drag and drop **Layout widget** to the corresponding position, change Column = `1`. Select **Column 1**, set **Padding** = `15 18 15 18`.
+
+Drag and drop **Text widget** to column 1 change **Font size** to `16px`, set **Alignment** to `Left`
+
+Drag and drop **HTML widget below** Text widget, copy and paste the script below to HTML widget then click on **save**:
+
+```
+<p style="
+  
+  color: #4E299E;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+">
+<i class='fa fa-check'> </i> REE Access To chat With Licensed vets 7 Day A Week.
+<br>
+  <i class='fa fa-check'></i> Save 5% On All Future Autoship Orders.
+<br><i class='fa fa-check'></i> No Fees, No commitments - Cancel Autoship Anytime
+</p>
+```
+
 ### Brand logo in product detail
 
 ![brand logo in product detail](img/brand-logo.jpg)
@@ -1169,6 +1196,36 @@ In **Marketing** > **Marketing Banner**, click **Create a Banner** button.
 Watch the instruction video:
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796915050?h=fa4bc20f8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-Brand description"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+## Customizing Cart page
+
+### Display free shipping message in cart page.
+
+Not qualify message
+
+![Not-qualify](\img\not-egilible.jpg)
+
+Qualify message
+
+![qualify](\img\promotion-qualify.jpg)
+
+In **Marketing** > **Promotion** click on **create** and select **With legacy editor**
+
+In **Promotion detail** name your promotion 
+
+In **promotion type** select `Orders totaling more than X amount get free shipping to specific shipping zones` at the field **spend at least** type your amount
+
+![free-shipping-editor](\img\free-shipping.jpg)
+
+In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
+
+![promotion-message](\img\Promotion-message.jpg)
+
+
+
+
+
+
 
 
 
