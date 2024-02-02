@@ -1,5 +1,15 @@
 # Release Notes
 
+## 1.7.0 (02-02-2024)
+- Add config to show/hide button Buy Now on PDP (PR-#640)
+- Fix brand link on product card link to 404 page ISSUE-#641 (PR-#642)
+- Fix styling of sale label on PDP ISSUE-#644 (PR-#646)
+- Tweak sale badge and you save on PDP (PR-#647)
+- Fix Buy Now button style broken on Baby style ISSUE-#648 (PR-#654)
+- Change FBT display 1 item per row when left sidebar is enabled ISSUE-#649 (PR-#654)
+- Fix product description background padding on Quick View ISSUE-#650 (PR-#654)
+- Fix price alignment on purchase options popup on mobile ISSUE-#651 (PR-#655)
+
 ## 1.6.0 (11-10-2023)
 - Update Product Page to enhance sale countdown, add buy now button (#638)
 
