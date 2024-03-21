@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.7.1 (03-21-2024)
+- Remove footer heading link on desktop #657 (#658)
+- Fix sort not working at search result page when turn off faceted filter #659 (#660)
+
 ## 1.7.0 (02-02-2024)
 - Add config to show/hide button Buy Now on PDP (PR-#640)
 - Fix brand link on product card link to 404 page ISSUE-#641 (PR-#642)
