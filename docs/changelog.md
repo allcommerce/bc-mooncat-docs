@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.7.2 (03-29-2024)
+- Fix widget layout not center
+- Remove unused files
+- Fix jstree color
+
 ## 1.7.1 (03-21-2024)
 - Remove footer heading link on desktop #657 (#658)
 - Fix sort not working at search result page when turn off faceted filter #659 (#660)
