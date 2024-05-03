@@ -1,5 +1,11 @@
 # Release Notes
 
+## 1.7.3 (05-03-2024)
+- Fix NaN of quantity box on product cards #661 (#662)
+- Fix default image not showing in search result page for product don't have image thumbnail #664 (#665)
+- Fix infinite loading not working when there are 2 filter values selected #669 (#670)
+- Fix infinite loading: not working select the default sort again #671 (#672)
+
 ## 1.7.2 (03-29-2024)
 - Fix widget layout not center
 - Remove unused files
