@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.7.4 (06-14-2024)
+- Fix webfont cannot load Google font with multiple weights
+
 ## 1.7.3 (05-03-2024)
 - Fix NaN of quantity box on product cards #661 (#662)
 - Fix default image not showing in search result page for product don't have image thumbnail #664 (#665)
