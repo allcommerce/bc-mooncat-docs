@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.8.0 (09-06-2024)
+- Update code from Kansha 1.4.0
+- Change Twitter icon to X #672 (#673)
+
 ## 1.7.4 (06-14-2024)
 - Fix webfont cannot load Google font with multiple weights
 
