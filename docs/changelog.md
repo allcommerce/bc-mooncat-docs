@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.8.1 (11-08-2024)
+- Fix browser crash when editing options in Bulk Order layout with products that have an empty file
+- Fix undefined 'input-font-color' in add payment methods account page
+
 ## 1.8.0 (09-06-2024)
 - Change Twitter icon to X #672 (#673)
 - Update code from Kansha 1.4.0:
