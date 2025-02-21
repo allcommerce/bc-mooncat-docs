@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.9.1 (02-21-2025)
+- Fix undefined share link in PDP (#679)
+
 ## 1.9.0 (01-20-2025)
 - [CORNERSTONE] Add nonce to scripts in checkout and account pages [#2525](https://github.com/bigcommerce/cornerstone/pull/2525)
 - [CORNERSTONE] Use fetch when updating variants in cart ([#2521](https://github.com/bigcommerce/cornerstone/pull/2521))
