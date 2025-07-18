@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.10.0 (07-18-2025)
+- [CORNERSTONE] PAYPAL-5000 Quick pay buttons are seen on PDP before 'required' option selection (#683)
+- [CORNERSTONE] Update to support multiple date fields and remove blank space (#684)
+- Add login with email link feature.
+
 ## 1.9.1 (02-21-2025)
 - Fix undefined share link in PDP (#679)
 
