@@ -36,6 +36,61 @@ Verify the widgets installed successfully if they appear in Page Builder:
 
 ![custom-widgets-appear](img/custom-widgets-appear.jpg)
 
+## Importing Sample Products
+
+To set up your store to work exactly like our demo stores, you can import sample products using the following steps:
+
+**Available Sample Products:**
+
+- **The Wish Product**
+    - Product link: [https://mooncat-bookstore-demo.mybigcommerce.com/the-wish/](https://mooncat-bookstore-demo.mybigcommerce.com/the-wish/)
+    - Download: [samples/the-wish.json](./samples/the-wish.json)
+
+**Import Steps:**
+
+1. Go to **[BC Tools](https://bc-tools.papathemes.com/)**
+2. Click the **Store Manager** menu item and enter your store API key
+3. Click the **Import Product** menu item
+4. Select your store as the target store
+5. Under **Product JSON File**, upload the downloaded JSON file from above
+6. Click the **Import Product** button to import the product into your store
+
+![import-product](./img/import-product.jpg){ loading=lazy }
+
+## Importing Widgets to Pages
+
+To import widgets to pages (Home, Product, Cart, global regions) in your store to work exactly like our demo stores:
+
+**Available Widget Dumps:**
+
+- **For Healthcare Demo Store**
+    - Download: [samples/healthcare-bc-widgets-dump.json](./samples/healthcare-bc-widgets-dump.json)
+
+- **For Bookstore Demo Store**
+    - Download: [samples/bookstore-bc-widgets-dump.json](./samples/bookstore-bc-widgets-dump.json)
+
+- **For Baby Demo Store**
+    - Download: [samples/baby-bc-widgets-dump.json](./samples/baby-bc-widgets-dump.json)
+
+- **For Petstore Demo Store**
+    - Download: [samples/petstore-bc-widgets-dump.json](./samples/petstore-bc-widgets-dump.json)
+
+**Import Steps:**
+
+1. Go to **[BC Tools](https://bc-tools.papathemes.com/)**
+2. Click the **Store Manager** menu item and enter your store API key (skip if already entered)
+3. Click the **Import Widgets** menu item
+4. Select your store as the target store
+5. Enter your **Channel ID** (default is `1` if you only have one storefront)
+6. Click the **Load Widget Templates** button to load existing widget templates in your store
+7. Under **Widgets JSON File**, upload the downloaded JSON file from above. After selecting the file, a list of widgets and pages to be imported will appear
+8. Check **"Auto-create new custom widget templates"** if you want to automatically create widget templates that are not yet available in your store but are required for our theme
+9. In the **Page List**, select the pages you want to import widgets into
+10. Click the **Import Widgets** button to import the widgets into your store
+11. Preview your storefront with pages like Home, Product, Cart, which will look like our demo stores
+
+![import-widgets](./img/import-widgets.jpg){ loading=lazy }
+
 
 ## Setting Up Pets Style Home Page
 
