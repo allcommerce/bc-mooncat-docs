@@ -12,6 +12,53 @@ For displaying your Instagram photos on your website, you can use our free tool 
 
 Customizing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme Styles** > **General**. There are dozens of options to help you customize your website beautifully and uniquely.
 
+### Custom Font
+
+#### Add Custom Font
+
+- Open theme’s `Page Builder`, navigate to `Theme Styles` → `General`.
+
+- Paste the **Custom Font URL** into the `Web Font URL` input field. The font is now available in your theme.
+
+- **For regular text**: Enter the font family name into `Or use web font`
+
+- **For headings**: Go to `Headings` → `Font family` →` Or use web font`, then enter the same font family name.
+
+- Then click **Save button** to finish.
+
+![web-front-url_pb2](img/web-front-url_pb2.png)
+
+![web-front-url_pb3](img/web-front-url_pb3.png)
+
+#### How to Get Custom Font URL
+
+1. Visit Adobe Fonts at <https://fonts.adobe.com/>, sign in to your Adobe account.
+
+2. Browse and select the font you want to use.
+
+![web-front-url__adobe_fronts](img/web-front-url__adobe_fronts.png)
+
+3. Click on the font to view its available styles.
+
+- To use the font on your website, click `Add to Web Project`, then select one of your existing Web Projects or create a new one.
+
+**Note:** If a font does not have the `Add to Web Project` option, it means the font is a paid font and cannot be used as a web font.
+
+![web-front-url__adobe_fronts-detail](img/web-front-url__adobe_fronts-detail.png)
+
+4. After adding the font to a Web Project, Adobe Fonts will display the embed information:
+
+- The `href` URL inside the `<link>` tag is the Web Font URL.
+
+- The `font-family` name can be found in the CSS style snippet below
+
+![web-front-url__adobe_fronts-font-url](img/web-front-url__adobe_fronts-font-url.png)
+
+- You can also revisit your Web Project at any time to review all added fonts, including their Web Font URL and font-family values.
+
+![web-front-url__adobe_fronts-list-font](img/web-front-url__adobe_fronts-list-font.png)
+
+
 ### Customizing Checkout Page's Typography and Colors
 
 Customizing the checkout page's typography and colors in **Page Builder** > **Theme Styles** > **Optimized Checkout**
@@ -35,7 +82,6 @@ Go to **Storefront** > **My Themes** > click **Customize** in dropdown menu of M
 Verify the widgets installed successfully if they appear in Page Builder:
 
 ![custom-widgets-appear](img/custom-widgets-appear.jpg)
-
 
 ## Setting Up Pets Style Home Page
 
