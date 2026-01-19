@@ -18,17 +18,17 @@ Customizing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme 
 
 - Open theme’s `Page Builder`, navigate to `Theme Styles` → `General`.
 
-- Paste the **Custom Font URL** into the `Web Font URL` input field. The font is now available in your theme.
+- Paste the **Custom Font URL** into the `Web Font URL` input field.
 
-- **For regular text**: Enter the font family name into `Or use web font`
-
-- **For headings**: Go to `Headings` → `Font family` →` Or use web font`, then enter the same font family name.
-
-- Then click **Save button** to finish.
+- **For regular text**: Enter the font family name into the `Or use web font` input field.
 
 ![web-front-url_pb2](img/web-front-url_pb2.png)
 
+- **For headings**: Go to `Headings` → `Font family` →` Or use web font`, then enter the font family name.
+
 ![web-front-url_pb3](img/web-front-url_pb3.png)
+
+- Then click **Save button** to finish.
 
 #### How to Get Custom Font URL
 
@@ -48,9 +48,9 @@ Customizing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme 
 
 4. After adding the font to a Web Project, Adobe Fonts will display the embed information:
 
-- The `href` URL inside the `<link>` tag is the Web Font URL.
+- The `href` URL inside the `<link>` tag is the Font URL. Copy this **URL** and paste it into the `Web Font URL` input field in the `Page Builder` to add the font to your theme.
 
-- The `font-family` name can be found in the CSS style snippet below
+- The `font-family` name can be found in the CSS style snippet below. Copy and paste it into the `Or use web font` input field in the `Page Builder` to apply the font to text in your theme.
 
 ![web-front-url__adobe_fronts-font-url](img/web-front-url__adobe_fronts-font-url.png)
 
