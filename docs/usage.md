@@ -12,7 +12,7 @@ For displaying your Instagram photos on your website, you can use our free tool 
 
 Customizing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme Styles** > **General**. There are dozens of options to help you customize your website beautifully and uniquely.
 
-### Custom Font
+### Using Custom Font
 
 #### Add Custom Font
 
@@ -57,7 +57,6 @@ Customizing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme 
 - You can also revisit your Web Project at any time to review all added fonts, including their Web Font URL and font-family values.
 
 ![web-front-url__adobe_fronts-list-font](img/web-front-url__adobe_fronts-list-font.png)
-
 
 ### Customizing Checkout Page's Typography and Colors
 
