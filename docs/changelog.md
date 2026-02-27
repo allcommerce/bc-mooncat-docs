@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.11.0 (02-27-2026)
+- Fix race condition when clicking thumbnails rapidly in image gallery
+- Fix abnormal scroll down error on search page (#689)
+- Add keyword suggestions feature for quick search
+- Fix link paginator in order page (#687)
+- Bump webpack from 5.75.0 to 5.76.0 (#486)
+
 ## 1.10.0 (07-18-2025)
 - [CORNERSTONE] PAYPAL-5000 Quick pay buttons are seen on PDP before 'required' option selection (#683)
 - [CORNERSTONE] Update to support multiple date fields and remove blank space (#684)
