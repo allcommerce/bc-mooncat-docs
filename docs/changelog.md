@@ -1,5 +1,11 @@
 # Release Notes
 
+## 1.12.0 (05-12-2026)
+- [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
+- [CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)
+- Fix product image thumbnails nav collapsing to 32px when `productpage_thumbnails_count` setting is 0/empty; clamp to min 1
+- Add page transition splash overlay (#711)
+
 ## 1.11.0 (02-27-2026)
 - Fix race condition when clicking thumbnails rapidly in image gallery
 - Fix abnormal scroll down error on search page (#689)
