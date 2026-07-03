@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.12.1 (07-03-2026)
+- fix(pbcst): handle multi-root AJAX section response
+
 ## 1.12.0 (05-12-2026)
 - [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
 - [CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)
